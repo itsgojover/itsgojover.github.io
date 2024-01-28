@@ -38,3 +38,12 @@ body {
 .nav-buttons a:hover {
     background-color: #777;
 }
+
+h1, h2, p {
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.6;
+}
