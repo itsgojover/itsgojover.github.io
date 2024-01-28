@@ -19,7 +19,7 @@ function searchPeople(query) {
     // Clear suggestions if the query is empty
     if (query === '') {
         suggestionsContainer.innerHTML = '';
-        suggestionsContainer.style.display = 'none'; // Hide the suggestions container
+        suggestionsContainer.classList.remove('show'); // Hide the suggestions container
         selectedIndex = -1; // Reset the selected index
         return;
     }
@@ -56,7 +56,7 @@ function searchPeople(query) {
     }
 
 
-    suggestionsContainer.style.display = 'block'; // Show the suggestions container
+    suggestionsContainer.classList.add('show');
 }
 
 function selectSuggestion(id) {
@@ -76,7 +76,7 @@ function selectSuggestion(id) {
         console.error('Person not found');
     }
 
-    suggestionsContainer.style.display = 'none'; // Hide the suggestions container
+    suggestionsContainer.classList.remove('show');
     selectedIndex = -1; // Reset the selected index
 }
 
