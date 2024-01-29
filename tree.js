@@ -27,7 +27,7 @@ function generateTreeHTML(personID) {
         memberImage.classList.add('member-image');
 
         var imgElement = document.createElement('img');
-        imgElement.setAttribute('src', 'https://image.flaticon.com/icons/svg/145/145867.svg');
+        imgElement.setAttribute('src', './person.png');
         imgElement.setAttribute('alt', 'Member');
 
         var memberDetails = document.createElement('div');
