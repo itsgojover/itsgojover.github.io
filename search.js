@@ -19,7 +19,7 @@ function searchPeople(query) {
     // Clear suggestions if the query is empty
     if (query === '') {
         suggestionsContainer.innerHTML = '';
-        suggestionsContainer.classList.remove('show'); // Hide the suggestions container
+        suggestionsContainer.style.display = "none"; // Hide the suggestions container
         selectedIndex = -1; // Reset the selected index
         return;
     }
@@ -56,7 +56,7 @@ function searchPeople(query) {
     }
 
 
-    suggestionsContainer.classList.add('show');
+    suggestionsContainer.style.display = "block";
 }
 
 function selectSuggestion(id) {
@@ -76,7 +76,7 @@ function selectSuggestion(id) {
         console.error('Person not found');
     }
 
-    suggestionsContainer.classList.remove('show');
+    suggestionsContainer.style.display = "none";
     selectedIndex = -1; // Reset the selected index
 }
 
@@ -115,12 +115,12 @@ function displayPersonDetails(personId) {
     if (person) {
         // Create a table with rows for each detail
         const tableContent = `
-            <tr><td>Name:</td><td>${person.name}</td></tr>
-            <tr><td>Surname:</td><td>${person.surname}</td></tr>
-            <tr><td>Birthday:</td><td>${person.birthday}</td></tr>
-            <tr><td>Partners:</td><td>${person.partners && person.partners.length > 1 ? person.partners.join(', ') : person.partners && person.partners.length == 1 ? person.partners[0]: 'None'}</td></tr>
-            <tr><td>Parents:</td><td>${formatClickableNames(person.parents)}</td></tr>
-            <tr><td>Children:</td><td>${formatClickableNames(person.children)}</td></tr>
+            <tr class="personInfo"><td>Adı:</td><td>${person.name ? person.name : "Yok"}</td></tr>
+            <tr class="personInfo"><td>Soyadı:</td><td>${person.surname ? person.surname : "Yok"}</td></tr>
+            <tr class="personInfo"><td>Doğum tarihi:</td><td>${person.birthday ? person.birthday : "Yok"}</td></tr>
+            <tr class="personInfo"><td>${person.partners ? (person.partners.length > 1 ? 'Eşleri' : "Eşi") : "Eşi"}:</td><td>${person.partners && person.partners.length > 1 ? person.partners.join(', ') : person.partners && person.partners.length == 1 ? person.partners[0]: 'Yok'}</td></tr>
+            <tr class="personInfo"><td>Anne - Baba:</td><td>${formatClickableNames(person.parents)}</td></tr>
+            <tr class="personInfo"><td>Çocukları:</td><td>${formatClickableNames(person.children)}</td></tr>
         `;
 
         // Set the content of the table
@@ -138,7 +138,7 @@ function displayPersonDetails(personId) {
 function formatClickableNames(ids) {
     return ids
         ? ids.map(id => `<a href="#" class="personLink" data-id="${id}">${getNameById(id)}</a>`).join(', ')
-        : 'None';
+        : 'Yok';
 }
 
 // Function to attach click events to clickable links
