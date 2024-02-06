@@ -1,155 +1,575 @@
 [
-    {
-        "id": 0,
-        "name": "Ahmet",
-        "surname": "",
-        "birthday": "1840-xx-xx",
-        "parents": null,
-        "partners": null,
-        "children": [1, 2, 3]
-    },
-    {
-        "id": 1,
-        "name": "Urkiye",
-        "surname": "",
-        "birthday": "1863-xx-xx",
-        "parents": [0],
-        "partners": ["Mustafa(SARIDEDE Kuyualan)"],
-        "children": [4,5,6,7]
-    },
-    {
-        "id": 2,
-        "name": "Kasım",
-        "surname": "",
-        "birthday": "1866-xx-xx",
-        "parents": [0],
-        "partners": ["Sultan(SARIDEDE Kardeşi Kuyualan)"],
-        "children": [8,9,10,11]
-    },
-    {
-        "id": 3,
-        "name": "Hüseyin(Mollo)",
-        "surname": "",
-        "birthday": "1869-xx-xx",
-        "parents": [0],
-        "partners": ["Ummuhan(Meryemdere)"],
-        "children": [12,13,14,15,16]
-    },
-    {
-        "id": 4,
-        "name": "Ahmet(Çavuş)",
-        "surname": "Özkan",
-        "birthday": null,
-        "parents": [1],
-        "partners": ["Emine", "Alime"],
-        "children": null
-    },
-    {
-        "id": 5,
-        "name": "Hasan",
-        "surname": "Özkan",
-        "birthday": null,
-        "parents": [1],
-        "partners": ["Hatice"],
-        "children": null
-    },
-    {
-        "id": 6,
-        "name": "Emine",
-        "surname": "Bozdoğan",
-        "birthday": null,
-        "parents": [1],
-        "partners": ["Mustafa Bozdoğan (Kara Mustafa)"],
-        "children": null
-    },
-    {
-        "id": 7,
-        "name": "Fadime",
-        "surname": "",
-        "birthday": null,
-        "parents": [1],
-        "partners": ["Aliosman Çetinkaya"],
-        "children": null
-    },
-    {
-        "id": 8,
-        "name": "Ethem",
-        "surname": "Güneş",
-        "birthday": null,
-        "parents": [2],
-        "partners": ["Hatice"],
-        "children": null
-    },
-    {
-        "id": 9,
-        "name": "Adem",
-        "surname": "Güneş",
-        "birthday": null,
-        "parents": [2],
-        "partners": ["Nuriye"],
-        "children": null
-    },
-    {
-        "id": 10,
-        "name": "Fadime",
-        "surname": "Zeybek",
-        "birthday": null,
-        "parents": [2],
-        "partners": ["?"],
-        "children": null
-    },
-    {
-        "id": 11,
-        "name": "Ayşe",
-        "surname": "Zeybek",
-        "birthday": null,
-        "parents": [2],
-        "partners": ["?"],
-        "children": null
-    },
-    {
-        "id": 12,
-        "name": "Hasan",
-        "surname": "",
-        "birthday": null,
-        "parents": [3],
-        "partners": ["Fadime(Çavlu köyünden)"],
-        "children": null
-    },
-    {
-        "id": 13,
-        "name": "Akif",
-        "surname": "",
-        "birthday": null,
-        "parents": [3],
-        "partners": ["Hatice(Bahçedere köyünden)"],
-        "children": null
-    },
-    {
-        "id": 14,
-        "name": "Atike",
-        "surname": "",
-        "birthday": null,
-        "parents": [3],
-        "partners": ["Şaban(Kalemköy köyünden)"],
-        "children": null
-    },
-    {
-        "id": 15,
-        "name": "Hanife",
-        "surname": "",
-        "birthday": null,
-        "parents": [3],
-        "partners": ["Ali(Kalemköy köyünden)"],
-        "children": null
-    },
-    {
-        "id": 16,
-        "name": "Hatice",
-        "surname": "Karadayı",
-        "birthday": null,
-        "parents": [3],
-        "partners": ["Ali Karadayı"],
-        "children": null
-    }
+  {
+    "id": 0,
+    "name": "Ahmet",
+    "surname": "",
+    "birthday": "1840",
+    "parents": null,
+    "partners": null,
+    "children": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Urkiye",
+    "surname": "",
+    "birthday": "1863",
+    "parents": [
+      0
+    ],
+    "partners": [
+      "Mustafa(SARIDEDE Kuyualan)"
+    ],
+    "children": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kasım",
+    "surname": "",
+    "birthday": "1866",
+    "parents": [
+      0
+    ],
+    "partners": [
+      "Sultan(SARIDEDE Kardeşi Kuyualan)"
+    ],
+    "children": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hüseyin(Molla)",
+    "surname": "",
+    "birthday": "1869",
+    "parents": [
+      0
+    ],
+    "partners": [
+      "Ummuhan(Meryemdere)"
+    ],
+    "children": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ahmet(Çavuş)",
+    "surname": "Özkan",
+    "birthday": null,
+    "parents": [
+      1
+    ],
+    "partners": [
+      "Emine",
+      "Alime"
+    ],
+    "children": null
+  },
+  {
+    "id": 5,
+    "name": "Hasan",
+    "surname": "Özkan",
+    "birthday": null,
+    "parents": [
+      1
+    ],
+    "partners": [
+      "Hatice"
+    ],
+    "children": null
+  },
+  {
+    "id": 6,
+    "name": "Emine",
+    "surname": "Bozdoğan",
+    "birthday": null,
+    "parents": [
+      1
+    ],
+    "partners": [
+      "Mustafa Bozdoğan (Kara Mustafa)"
+    ],
+    "children": null
+  },
+  {
+    "id": 7,
+    "name": "Fadime",
+    "surname": "",
+    "birthday": null,
+    "parents": [
+      1
+    ],
+    "partners": [
+      "Aliosman Çetinkaya"
+    ],
+    "children": null
+  },
+  {
+    "id": 8,
+    "name": "Ethem",
+    "surname": "Güneş",
+    "birthday": null,
+    "parents": [
+      2
+    ],
+    "partners": [
+      "Hatice"
+    ],
+    "children": null
+  },
+  {
+    "id": 9,
+    "name": "Adem",
+    "surname": "Güneş",
+    "birthday": null,
+    "parents": [
+      2
+    ],
+    "partners": [
+      "Nuriye"
+    ],
+    "children": null
+  },
+  {
+    "id": 10,
+    "name": "Fadime",
+    "surname": "Zeybek",
+    "birthday": "",
+    "parents": [
+      2
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 11,
+    "name": "Ayşe",
+    "surname": "Zeybek",
+    "birthday": "",
+    "parents": [
+      2
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 12,
+    "name": "Hasan",
+    "surname": "",
+    "birthday": null,
+    "parents": [
+      3
+    ],
+    "partners": [
+      "Fadime(Çavlu köyünden)"
+    ],
+    "children": null
+  },
+  {
+    "id": 13,
+    "name": "Akif",
+    "surname": "",
+    "birthday": null,
+    "parents": [
+      3
+    ],
+    "partners": [
+      "Hatice(Bahçedere köyünden)"
+    ],
+    "children": null
+  },
+  {
+    "id": 14,
+    "name": "Atike",
+    "surname": "",
+    "birthday": null,
+    "parents": [
+      3
+    ],
+    "partners": [
+      "Şaban(Kalemköy köyünden)"
+    ],
+    "children": null
+  },
+  {
+    "id": 15,
+    "name": "Hanife",
+    "surname": "",
+    "birthday": null,
+    "parents": [
+      3
+    ],
+    "partners": [
+      "Ali(Kalemköy köyünden)"
+    ],
+    "children": null
+  },
+  {
+    "id": 16,
+    "name": "Hatice",
+    "surname": "Karadayı",
+    "birthday": null,
+    "parents": [
+      3
+    ],
+    "partners": [
+      "Ali Karadayı"
+    ],
+    "children": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      17
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Zeliha",
+    "surname": "Tekin",
+    "birthday": "1927",
+    "parents": [
+      16,
+      "Ali Karadayı"
+    ],
+    "partners": [
+      "Ali Tekin"
+    ],
+    "children": [
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      27
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mehmet",
+    "surname": "Karadayı",
+    "birthday": "",
+    "parents": [
+      16,
+      "Ali Karadayı"
+    ],
+    "partners": [
+      "Havva Karadayı"
+    ],
+    "children": null
+  },
+  {
+    "id": 19,
+    "name": "Ayşe",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      16,
+      "Ali Karadayı"
+    ],
+    "partners": [
+      "Hüseyin Yıldırım"
+    ],
+    "children": null
+  },
+  {
+    "id": 20,
+    "name": "Hanife",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      16,
+      "Ali Karadayı"
+    ],
+    "partners": [
+      "Mehmet Ali Yener"
+    ],
+    "children": null
+  },
+  {
+    "id": 21,
+    "name": "Emine (Ebriş Teyze)",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      16,
+      "Ali Karadayı"
+    ],
+    "partners": [
+      "Alaattin Yener"
+    ],
+    "children": null
+  },
+  {
+    "id": 22,
+    "name": "Ummuhan",
+    "surname": "Göktepe",
+    "birthday": "",
+    "parents": [
+      16,
+      "Ali Karadayı"
+    ],
+    "partners": [
+      "İsmail Göktepe"
+    ],
+    "children": null
+  },
+  {
+    "id": 23,
+    "name": "Safinaz",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      16,
+      "Ali Karadayı"
+    ],
+    "partners": [
+      "Aziz Çığ"
+    ],
+    "children": null
+  },
+  {
+    "id": 24,
+    "name": "Ayşe",
+    "surname": "Alpaslan",
+    "birthday": "1946-11-01",
+    "parents": [
+      "Ali Tekin",
+      17
+    ],
+    "partners": [
+      "Adil Alpaslan"
+    ],
+    "children": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Hatice",
+    "surname": "Göç",
+    "birthday": "1948 12 13",
+    "parents": [
+      "Ali Tekin",
+      17
+    ],
+    "partners": [
+      "Akif Göç"
+    ],
+    "children": null
+  },
+  {
+    "id": 26,
+    "name": "Güler",
+    "surname": "Yener",
+    "birthday": "1951",
+    "parents": [
+      "Ali Tekin",
+      17
+    ],
+    "partners": [
+      "Niyazi Yener"
+    ],
+    "children": null
+  },
+  {
+    "id": 27,
+    "name": "Emin",
+    "surname": "Tekin",
+    "birthday": "1953",
+    "parents": [
+      "Ali Tekin",
+      17
+    ],
+    "partners": [
+      "Kadriye Tekin"
+    ],
+    "children": null
+  },
+  {
+    "id": 28,
+    "name": "Erol",
+    "surname": "Tekin",
+    "birthday": "1955",
+    "parents": [
+      "Ali Tekin",
+      17
+    ],
+    "partners": [
+      0
+    ],
+    "children": null
+  },
+  {
+    "id": 29,
+    "name": "Emine",
+    "surname": "Battal",
+    "birthday": "1958",
+    "parents": [
+      "Ali Tekin",
+      17
+    ],
+    "partners": [
+      "İsmail Battal"
+    ],
+    "children": null
+  },
+  {
+    "id": 30,
+    "name": "İnci (Safinaz )",
+    "surname": "Işık",
+    "birthday": "1962",
+    "parents": [
+      "Ali Tekin",
+      17
+    ],
+    "partners": [
+      "İsmail Aşık"
+    ],
+    "children": null
+  },
+  {
+    "id": 31,
+    "name": "Taner",
+    "surname": "Alpaslan",
+    "birthday": "1970",
+    "parents": [
+      24,
+      "Adil Alpaslan"
+    ],
+    "partners": [
+      "Nurcan Alpaslan"
+    ],
+    "children": [
+      34,
+      35
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Özgül",
+    "surname": "Keloğlu",
+    "birthday": "1973",
+    "parents": [
+      24,
+      "Adil Alpaslan"
+    ],
+    "partners": [
+      "Evrim Keloğlu"
+    ],
+    "children": [
+      36,
+      37
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Saliha",
+    "surname": "Erdoğan",
+    "birthday": "1974",
+    "parents": [
+      24,
+      "Adil Alpaslan"
+    ],
+    "partners": [
+      "Ercan Erdoğan"
+    ],
+    "children": [
+      38,
+      39
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Adil Oğuz",
+    "surname": "Alpaslan",
+    "birthday": "2001",
+    "parents": [
+      31,
+      "Nurcan Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 35,
+    "name": "Yağmur",
+    "surname": "Alpaslan",
+    "birthday": "2006",
+    "parents": [
+      31,
+      "Nurcan Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 36,
+    "name": "Poyraz",
+    "surname": "Keloğlu",
+    "birthday": "2001",
+    "parents": [
+      32,
+      "Evrim Keloğlu"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 37,
+    "name": "Deniz",
+    "surname": "Keloğlu",
+    "birthday": "2004",
+    "parents": [
+      32,
+      "Evrim Keloğlu"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 38,
+    "name": "Doğa",
+    "surname": "Erdoğan",
+    "birthday": "2006",
+    "parents": [
+      33,
+      "Ercan Erdoğan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 39,
+    "name": "Defne",
+    "surname": "Erdoğan",
+    "birthday": "2008",
+    "parents": [
+      33,
+      "Ercan Erdoğan"
+    ],
+    "partners": null,
+    "children": null
+  }
 ]
