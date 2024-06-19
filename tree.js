@@ -2,7 +2,7 @@ let peopleData = [];
 
 async function fetchPeopleData() {
     try {
-        const response = await fetch('../people.json');
+        const response = await fetch('./data/people.json');
         const data = await response.json();
         peopleData = data;
     } catch (error) {
@@ -27,7 +27,7 @@ function generateTreeHTML(personID) {
         memberImage.classList.add('member-image');
 
         var imgElement = document.createElement('img');
-        imgElement.setAttribute('src', './person.png');
+        imgElement.setAttribute('src', './data/person.png');
         imgElement.setAttribute('alt', 'Member');
 
         var memberDetails = document.createElement('div');
