@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "name": "Ahmet",
+    "name": "AHMET",
     "surname": "",
-    "birthday": "1840",
+    "birthday": "",
     "parents": null,
     "partners": null,
     "children": [
@@ -15,7 +15,7 @@
   {
     "id": 1,
     "name": "Urkiye",
-    "surname": "",
+    "surname": "Özkan",
     "birthday": "1863",
     "parents": [
       0
@@ -24,10 +24,10 @@
       "Mustafa(SARIDEDE Kuyualan)"
     ],
     "children": [
-      4,
       5,
-      6,
-      7
+      7,
+      4,
+      6
     ]
   },
   {
@@ -60,26 +60,34 @@
       "Ummuhan(Meryemdere)"
     ],
     "children": [
+      16,
       12,
       13,
       14,
-      15,
-      16
+      15
     ]
   },
   {
     "id": 4,
     "name": "Ahmet(Çavuş)",
     "surname": "Özkan",
-    "birthday": null,
+    "birthday": "",
     "parents": [
+      "Sarı Dede",
       1
     ],
     "partners": [
       "Emine",
       "Alime"
     ],
-    "children": null
+    "children": [
+      50,
+      53,
+      54,
+      55,
+      52,
+      56
+    ]
   },
   {
     "id": 5,
@@ -92,33 +100,47 @@
     "partners": [
       "Hatice"
     ],
-    "children": null
+    "children": [
+      61,
+      62,
+      63
+    ]
   },
   {
     "id": 6,
     "name": "Emine",
     "surname": "Bozdoğan",
-    "birthday": null,
+    "birthday": "",
     "parents": [
       1
     ],
     "partners": [
       "Mustafa Bozdoğan (Kara Mustafa)"
     ],
-    "children": null
+    "children": [
+      400,
+      401,
+      402,
+      405
+    ]
   },
   {
     "id": 7,
     "name": "Fadime",
-    "surname": "",
-    "birthday": null,
+    "surname": "Çetinkaya",
+    "birthday": "",
     "parents": [
       1
     ],
     "partners": [
-      "Aliosman Çetinkaya"
+      "1Süleyman Çetinkaya 2.Ali Osman Çetinkaya"
     ],
-    "children": null
+    "children": [
+      245,
+      246,
+      251,
+      252
+    ]
   },
   {
     "id": 8,
@@ -131,7 +153,11 @@
     "partners": [
       "Hatice"
     ],
-    "children": null
+    "children": [
+      64,
+      65,
+      66
+    ]
   },
   {
     "id": 9,
@@ -144,7 +170,10 @@
     "partners": [
       "Nuriye"
     ],
-    "children": null
+    "children": [
+      67,
+      68
+    ]
   },
   {
     "id": 10,
@@ -166,59 +195,83 @@
       2
     ],
     "partners": null,
-    "children": null
+    "children": [
+      300
+    ]
   },
   {
     "id": 12,
     "name": "Hasan",
-    "surname": "",
-    "birthday": null,
+    "surname": "Alpaslan",
+    "birthday": "",
     "parents": [
       3
     ],
     "partners": [
       "Fadime(Çavlu köyünden)"
     ],
-    "children": null
+    "children": [
+      69,
+      70,
+      72,
+      73,
+      74,
+      71
+    ]
   },
   {
     "id": 13,
     "name": "Akif",
-    "surname": "",
-    "birthday": null,
+    "surname": "Alpaslan",
+    "birthday": "",
     "parents": [
       3
     ],
     "partners": [
       "Hatice(Bahçedere köyünden)"
     ],
-    "children": null
+    "children": [
+      111,
+      133,
+      134
+    ]
   },
   {
     "id": 14,
     "name": "Atike",
-    "surname": "",
-    "birthday": null,
+    "surname": "Yener",
+    "birthday": "",
     "parents": [
       3
     ],
     "partners": [
       "Şaban(Kalemköy köyünden)"
     ],
-    "children": null
+    "children": [
+      175,
+      176,
+      177,
+      178,
+      174,
+      173
+    ]
   },
   {
     "id": 15,
     "name": "Hanife",
-    "surname": "",
-    "birthday": null,
+    "surname": "Ok",
+    "birthday": "",
     "parents": [
       3
     ],
     "partners": [
-      "Ali(Kalemköy köyünden)"
+      "Ali Ok"
     ],
-    "children": null
+    "children": [
+      301,
+      302,
+      303
+    ]
   },
   {
     "id": 16,
@@ -254,13 +307,13 @@
       "Ali Tekin"
     ],
     "children": [
-      24,
-      25,
       26,
       28,
       29,
       30,
-      27
+      27,
+      25,
+      24
     ]
   },
   {
@@ -275,7 +328,13 @@
     "partners": [
       "Havva Karadayı"
     ],
-    "children": null
+    "children": [
+      330,
+      331,
+      332,
+      333,
+      334
+    ]
   },
   {
     "id": 19,
@@ -289,7 +348,12 @@
     "partners": [
       "Hüseyin Yıldırım"
     ],
-    "children": null
+    "children": [
+      335,
+      336,
+      337,
+      338
+    ]
   },
   {
     "id": 20,
@@ -331,7 +395,14 @@
     "partners": [
       "İsmail Göktepe"
     ],
-    "children": null
+    "children": [
+      347,
+      348,
+      406,
+      407,
+      408,
+      409
+    ]
   },
   {
     "id": 23,
@@ -345,19 +416,24 @@
     "partners": [
       "Aziz Çığ"
     ],
-    "children": null
+    "children": [
+      349,
+      351,
+      352,
+      350
+    ]
   },
   {
     "id": 24,
     "name": "Ayşe",
     "surname": "Alpaslan",
-    "birthday": "1946-11-01",
+    "birthday": "1946",
     "parents": [
       "Ali Tekin",
       17
     ],
     "partners": [
-      "Adil Alpaslan"
+      136
     ],
     "children": [
       31,
@@ -369,7 +445,7 @@
     "id": 25,
     "name": "Hatice",
     "surname": "Göç",
-    "birthday": "1948 12 13",
+    "birthday": "1948",
     "parents": [
       "Ali Tekin",
       17
@@ -377,7 +453,10 @@
     "partners": [
       "Akif Göç"
     ],
-    "children": null
+    "children": [
+      41,
+      40
+    ]
   },
   {
     "id": 26,
@@ -391,7 +470,10 @@
     "partners": [
       "Niyazi Yener"
     ],
-    "children": null
+    "children": [
+      42,
+      43
+    ]
   },
   {
     "id": 27,
@@ -405,7 +487,10 @@
     "partners": [
       "Kadriye Tekin"
     ],
-    "children": null
+    "children": [
+      45,
+      326
+    ]
   },
   {
     "id": 28,
@@ -447,7 +532,10 @@
     "partners": [
       "İsmail Aşık"
     ],
-    "children": null
+    "children": [
+      327,
+      329
+    ]
   },
   {
     "id": 31,
@@ -456,7 +544,7 @@
     "birthday": "1970",
     "parents": [
       24,
-      "Adil Alpaslan"
+      136
     ],
     "partners": [
       "Nurcan Alpaslan"
@@ -473,7 +561,7 @@
     "birthday": "1973",
     "parents": [
       24,
-      "Adil Alpaslan"
+      136
     ],
     "partners": [
       "Evrim Keloğlu"
@@ -490,7 +578,7 @@
     "birthday": "1974",
     "parents": [
       24,
-      "Adil Alpaslan"
+      136
     ],
     "partners": [
       "Ercan Erdoğan"
@@ -506,8 +594,8 @@
     "surname": "Alpaslan",
     "birthday": "2001",
     "parents": [
-      31,
-      "Nurcan Alpaslan"
+      "Nurcan Alpaslan",
+      31
     ],
     "partners": null,
     "children": null
@@ -518,8 +606,8 @@
     "surname": "Alpaslan",
     "birthday": "2006",
     "parents": [
-      31,
-      "Nurcan Alpaslan"
+      "Nurcan Alpaslan",
+      31
     ],
     "partners": null,
     "children": null
@@ -530,8 +618,8 @@
     "surname": "Keloğlu",
     "birthday": "2001",
     "parents": [
-      32,
-      "Evrim Keloğlu"
+      "Evrim Keloğlu",
+      32
     ],
     "partners": null,
     "children": null
@@ -542,8 +630,8 @@
     "surname": "Keloğlu",
     "birthday": "2004",
     "parents": [
-      32,
-      "Evrim Keloğlu"
+      "Evrim Keloğlu",
+      32
     ],
     "partners": null,
     "children": null
@@ -554,8 +642,8 @@
     "surname": "Erdoğan",
     "birthday": "2006",
     "parents": [
-      33,
-      "Ercan Erdoğan"
+      "Ercan Erdoğan",
+      33
     ],
     "partners": null,
     "children": null
@@ -566,10 +654,5165 @@
     "surname": "Erdoğan",
     "birthday": "2008",
     "parents": [
-      33,
-      "Ercan Erdoğan"
+      "Ercan Erdoğan",
+      33
     ],
     "partners": null,
+    "children": null
+  },
+  {
+    "id": 40,
+    "name": "Mesut",
+    "surname": "Göç",
+    "birthday": "1970",
+    "parents": [
+      25,
+      "Akif Göç"
+    ],
+    "partners": [
+      "Hatice"
+    ],
+    "children": [
+      84
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Sevinç",
+    "surname": "Yılmaz",
+    "birthday": "1969",
+    "parents": [
+      25,
+      "Akif Göç"
+    ],
+    "partners": [
+      "Yücel Yılmaz"
+    ],
+    "children": [
+      44
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Nüket",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      26,
+      179
+    ],
+    "partners": null,
+    "children": [
+      47
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Oylum",
+    "surname": "Aydemir",
+    "birthday": "",
+    "parents": [
+      26,
+      179
+    ],
+    "partners": [
+      "Ahmet Aydemir"
+    ],
+    "children": [
+      48,
+      49
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Öykü",
+    "surname": "Zeytinci",
+    "birthday": "",
+    "parents": [
+      41,
+      "Yücel Yılmaz"
+    ],
+    "partners": [
+      "Barış Zeytinci"
+    ],
+    "children": null
+  },
+  {
+    "id": 45,
+    "name": "Ozan",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      27,
+      "Kadriye tekin"
+    ],
+    "partners": [
+      "Gizem Tekin"
+    ],
+    "children": [
+      46
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Beliz",
+    "surname": "Tekin",
+    "birthday": "2021",
+    "parents": [
+      45,
+      "Gizem Tekin"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 47,
+    "name": "Görkem",
+    "surname": "Aslan",
+    "birthday": "",
+    "parents": [
+      42
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 48,
+    "name": "Erdem",
+    "surname": "Aydemir",
+    "birthday": "",
+    "parents": [
+      "Ahmet Aydemir",
+      43
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 49,
+    "name": "Mete",
+    "surname": "Aydemir",
+    "birthday": "2014",
+    "parents": [
+      "Ahmet Aydemir",
+      43
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 50,
+    "name": "Mustafa",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      "Alime Özkan",
+      4
+    ],
+    "partners": [
+      "Rukiye Özkan"
+    ],
+    "children": [
+      57,
+      58,
+      59,
+      60,
+      51
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Nihal",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      50,
+      "Rukiye Özkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 52,
+    "name": "Hacer",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      "Emine Özkan",
+      4
+    ],
+    "partners": [
+      "Mustafa Özkan"
+    ],
+    "children": [
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Seviye",
+    "surname": "Alpcan",
+    "birthday": "",
+    "parents": [
+      "Emine Özkan",
+      4
+    ],
+    "partners": [
+      "İsmet Alpcan"
+    ],
+    "children": [
+      230,
+      231,
+      232,
+      233,
+      234
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Hüseyin",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      4,
+      "Alime Özkan"
+    ],
+    "partners": [
+      "Emine Özkan"
+    ],
+    "children": [
+      253,
+      254
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Zekai",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      4,
+      "Alime Özkan"
+    ],
+    "partners": [
+      "Emine Özkan"
+    ],
+    "children": [
+      298,
+      299
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Emine",
+    "surname": "Bozdoğan",
+    "birthday": "",
+    "parents": [
+      4,
+      "Alime Özkan"
+    ],
+    "partners": [
+      405
+    ],
+    "children": [
+      255,
+      256,
+      257
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Bünyamin",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      50,
+      52
+    ],
+    "partners": [
+      "Gülten Özkan"
+    ],
+    "children": [
+      237
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Fatma",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      50,
+      52
+    ],
+    "partners": [
+      "Erol Gök"
+    ],
+    "children": [
+      238,
+      239,
+      240,
+      241
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Üzeyir",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      50,
+      52
+    ],
+    "partners": [
+      "Rengin Özkan"
+    ],
+    "children": null
+  },
+  {
+    "id": 60,
+    "name": "Ahmet",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      50,
+      52
+    ],
+    "partners": [
+      "Kadriye Özkan"
+    ],
+    "children": [
+      242,
+      243
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Mehmet",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      5,
+      "Hatice Özkan"
+    ],
+    "partners": null,
+    "children": [
+      258,
+      259
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Münevver",
+    "surname": "Serpen",
+    "birthday": "",
+    "parents": [
+      5,
+      "Hatice Özkan"
+    ],
+    "partners": [
+      "Alattin Sepen"
+    ],
+    "children": [
+      260,
+      261,
+      398
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Ayşe",
+    "surname": "Bozdoğan",
+    "birthday": "",
+    "parents": [
+      5,
+      "Hatice Özkan"
+    ],
+    "partners": [
+      "Fahrettin Bozdoğan"
+    ],
+    "children": [
+      262,
+      263,
+      264,
+      265
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Ali",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      8,
+      "Hatice Güneş"
+    ],
+    "partners": [
+      "Ummuhan Güneş"
+    ],
+    "children": [
+      125,
+      126,
+      127
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Mehmet",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      8,
+      "Hatice Güneş"
+    ],
+    "partners": [
+      "Zehra Güneş"
+    ],
+    "children": [
+      266
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Nuri",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      8,
+      "Hatice Güneş"
+    ],
+    "partners": [
+      "Zehra Güneş"
+    ],
+    "children": [
+      268,
+      269
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Emine",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      9,
+      "Nuriye Güneş"
+    ],
+    "partners": [
+      "Hüseyin Alpaslan"
+    ],
+    "children": [
+      75,
+      76,
+      77,
+      78,
+      80,
+      79
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Fadime",
+    "surname": "Zeybek",
+    "birthday": "",
+    "parents": [
+      9,
+      "Nuriye Güneş"
+    ],
+    "partners": [
+      "Fahri Zeybek"
+    ],
+    "children": null
+  },
+  {
+    "id": 69,
+    "name": "Hüseyin",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      12,
+      "Fadime Alpaslan"
+    ],
+    "partners": [
+      67
+    ],
+    "children": [
+      75,
+      76,
+      77,
+      78,
+      80,
+      79
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Halil İbrahim",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      12,
+      "Fadime Alpaslan"
+    ],
+    "partners": [
+      "Ayşe Alpaslan"
+    ],
+    "children": [
+      91,
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Mehmet",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      12,
+      "Fadime Alpaslan"
+    ],
+    "partners": [
+      "Şafiye Alpaslan"
+    ],
+    "children": [
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Ummuhan",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      12,
+      "Fadime Alpaslan"
+    ],
+    "partners": [
+      "Ali Güneş"
+    ],
+    "children": [
+      125,
+      126,
+      127,
+      124
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Fethiye",
+    "surname": "Yenilmez",
+    "birthday": "",
+    "parents": [
+      12,
+      "Fadime Alpaslan"
+    ],
+    "partners": [
+      "Mehmet Yenilmez"
+    ],
+    "children": [
+      120,
+      121,
+      122,
+      123,
+      308,
+      309
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Emine",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      12,
+      "Fadime Alpaslan"
+    ],
+    "partners": [
+      "Hüseyin Kuşlu"
+    ],
+    "children": [
+      128,
+      129,
+      130,
+      131,
+      132
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Hanife",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      67,
+      69
+    ],
+    "partners": [
+      "Süleyman Kuşlu"
+    ],
+    "children": [
+      82,
+      81,
+      83,
+      304
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Zekiye",
+    "surname": "Ocak",
+    "birthday": "",
+    "parents": [
+      69,
+      67
+    ],
+    "partners": [
+      "Burhan Ocak"
+    ],
+    "children": [
+      87,
+      85,
+      86
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Mehmet",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      69,
+      67
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 78,
+    "name": "Hasan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      69,
+      67
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 79,
+    "name": "Adem",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      69,
+      67
+    ],
+    "partners": null,
+    "children": [
+      88,
+      89
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Şengül",
+    "surname": "Kurşun",
+    "birthday": "",
+    "parents": [
+      69,
+      67
+    ],
+    "partners": [
+      "Cengiz Kurşun"
+    ],
+    "children": [
+      90
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Nihat",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      75,
+      "Süleyman Kuşlu"
+    ],
+    "partners": [
+      "Figen"
+    ],
+    "children": null
+  },
+  {
+    "id": 82,
+    "name": "Sedat",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      75,
+      "Süleyman Kuşlu"
+    ],
+    "partners": [
+      "Gülver"
+    ],
+    "children": [
+      306
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Emine",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      75,
+      "Süleyman Kuşlu"
+    ],
+    "partners": [
+      "Murat"
+    ],
+    "children": [
+      307
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Umut Bora",
+    "surname": "Göç",
+    "birthday": "",
+    "parents": [
+      40,
+      "Hatice"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 85,
+    "name": "Hanife",
+    "surname": "Ocak",
+    "birthday": "",
+    "parents": [
+      76,
+      "Burhan Ocak"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 86,
+    "name": "Hatice",
+    "surname": "Ocak",
+    "birthday": "",
+    "parents": [
+      76,
+      "Burhan Ocak"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 87,
+    "name": "Sinan",
+    "surname": "Ocak",
+    "birthday": "",
+    "parents": [
+      76,
+      "Burhan Ocak"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 88,
+    "name": "Sinan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Gönül Alpaslan",
+      79
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 89,
+    "name": "Büşra",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Gönül Alpaslan",
+      79
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 90,
+    "name": "Fatmanur",
+    "surname": "Kurşun",
+    "birthday": "",
+    "parents": [
+      80,
+      "Cengiz Kurşun"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 91,
+    "name": "Hasan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      70,
+      "Ayşe Alpaslan"
+    ],
+    "partners": [
+      "Emine Alpaslan"
+    ],
+    "children": [
+      95,
+      96,
+      97
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Zekeria",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      70,
+      "Ayşe Alpaslan"
+    ],
+    "partners": [
+      "Emine Alpaslan (Çekirdekli köyünden)"
+    ],
+    "children": [
+      99,
+      100
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Mustafa",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      70,
+      "Ayşe Alpaslan"
+    ],
+    "partners": [
+      "Emine Alpaslan"
+    ],
+    "children": [
+      102,
+      103
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Hüseyin",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      70,
+      "Ayşe Alpaslan"
+    ],
+    "partners": [
+      "Nehire Alpaslan"
+    ],
+    "children": [
+      105,
+      104
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Kerim",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      91,
+      "Emine Alpaslan"
+    ],
+    "partners": [
+      "Asuman Alpaslan"
+    ],
+    "children": [
+      98
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Selim",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      91,
+      "Emine Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 97,
+    "name": "Zafer",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      91,
+      "Emine Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 98,
+    "name": "İsmail",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      95,
+      "Asuman Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 99,
+    "name": "Ayşe",
+    "surname": "Çavuş",
+    "birthday": "",
+    "parents": [
+      92,
+      "Emine Alpaslan"
+    ],
+    "partners": [
+      "Yusuf Çavuş"
+    ],
+    "children": [
+      101
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Ferhunde Müzeyyen",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      92,
+      "Emine Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 101,
+    "name": "Asena",
+    "surname": "Çavuş",
+    "birthday": "",
+    "parents": [
+      99,
+      "Yusuf Çavuş"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 102,
+    "name": "Ebru",
+    "surname": "Turunç",
+    "birthday": "",
+    "parents": [
+      93,
+      "Emine Alpaslan"
+    ],
+    "partners": [
+      "Altan Turunç"
+    ],
+    "children": null
+  },
+  {
+    "id": 103,
+    "name": "İsmail",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      93,
+      "Emine Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 104,
+    "name": "Şeyda",
+    "surname": "Bayram",
+    "birthday": "",
+    "parents": [
+      94,
+      "Nehire Alpaslan"
+    ],
+    "partners": [
+      "Aytaç Bayram"
+    ],
+    "children": null
+  },
+  {
+    "id": 105,
+    "name": "Seda",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      94,
+      "Nehire Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 106,
+    "name": "Ali",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Şadiye Alpaslan",
+      71
+    ],
+    "partners": [
+      "Dilber Alpaslan"
+    ],
+    "children": [
+      109
+    ]
+  },
+  {
+    "id": 107,
+    "name": "İlhan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Şadiye Alpaslan",
+      71
+    ],
+    "partners": [
+      "Serpil Alpaslan"
+    ],
+    "children": [
+      110
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Ayhan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Şadiye Alpaslan",
+      71
+    ],
+    "partners": [
+      "Hafize Alpaslan"
+    ],
+    "children": null
+  },
+  {
+    "id": 109,
+    "name": "Özkan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      106,
+      "Dilber Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 110,
+    "name": "Muhammet",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      107,
+      "Serpil Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 111,
+    "name": "Sebahat(Ummuhan)",
+    "surname": "Tosun",
+    "birthday": "",
+    "parents": [
+      13,
+      "Hatice Alpaslan"
+    ],
+    "partners": [
+      "Mustafa Tosun"
+    ],
+    "children": [
+      112,
+      113,
+      114,
+      115
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Levent",
+    "surname": "Tosun",
+    "birthday": "",
+    "parents": [
+      111,
+      "Mustafa Tosun"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 113,
+    "name": "İlknur",
+    "surname": "Akbaba",
+    "birthday": "",
+    "parents": [
+      111,
+      "Mustafa Tosun"
+    ],
+    "partners": [
+      "Erdinç Akbaba"
+    ],
+    "children": [
+      117,
+      116
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Bülent",
+    "surname": "Tosun",
+    "birthday": "",
+    "parents": [
+      111,
+      "Mustafa Tosun"
+    ],
+    "partners": [
+      "Fatma"
+    ],
+    "children": [
+      118,
+      119
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Günnur",
+    "surname": "Tosun",
+    "birthday": "",
+    "parents": [
+      111,
+      "Mustafa Tosun"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 116,
+    "name": "Murat",
+    "surname": "Akbaba",
+    "birthday": "",
+    "parents": [
+      113,
+      "Erdinç Akbaba"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 117,
+    "name": "Soner",
+    "surname": "Akbaba",
+    "birthday": "",
+    "parents": [
+      113,
+      "Erdinç Akbaba"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 118,
+    "name": "Artemis",
+    "surname": "Tosun",
+    "birthday": "",
+    "parents": [
+      114,
+      "Fatma"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 119,
+    "name": "Yeliz",
+    "surname": "Tosun",
+    "birthday": "",
+    "parents": [
+      114,
+      "Fatma"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 120,
+    "name": "Naime",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      73,
+      "Mehmet Yenimez"
+    ],
+    "partners": [
+      "Halit"
+    ],
+    "children": null
+  },
+  {
+    "id": 121,
+    "name": "Fehime",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      73,
+      "Mehmet Yenilmez"
+    ],
+    "partners": [
+      "Şeref"
+    ],
+    "children": null
+  },
+  {
+    "id": 122,
+    "name": "İbrahim",
+    "surname": "Yenilmez",
+    "birthday": "",
+    "parents": [
+      73,
+      "Mehmet Yenilmez"
+    ],
+    "partners": [
+      "Zahide Yenilmez"
+    ],
+    "children": null
+  },
+  {
+    "id": 123,
+    "name": "Ayşe",
+    "surname": "Çalışkan",
+    "birthday": "",
+    "parents": [
+      73,
+      "Mehmet Yenilmez"
+    ],
+    "partners": [
+      "Selim Çalışkan"
+    ],
+    "children": null
+  },
+  {
+    "id": 124,
+    "name": "Hacer",
+    "surname": "Dağ",
+    "birthday": "",
+    "parents": [
+      72,
+      "Ali Güneş"
+    ],
+    "partners": [
+      "Hasan Dağ"
+    ],
+    "children": [
+      310,
+      311
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Fatma",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      72,
+      64
+    ],
+    "partners": [
+      "Mehmet"
+    ],
+    "children": null
+  },
+  {
+    "id": 126,
+    "name": "Hasan",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      64,
+      72
+    ],
+    "partners": [
+      "Ayşe Güneş"
+    ],
+    "children": [
+      312,
+      313,
+      314
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Ayşe",
+    "surname": "Yılmaz",
+    "birthday": "",
+    "parents": [
+      72,
+      64
+    ],
+    "partners": [
+      "Nurettin Yılmaz"
+    ],
+    "children": [
+      315,
+      316,
+      317
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Süleyman",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      74,
+      "Hüseyin Kuşlu"
+    ],
+    "partners": [
+      "hanife kuşlu"
+    ],
+    "children": null
+  },
+  {
+    "id": 129,
+    "name": "Zeki",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      74,
+      "Hüseyin kuşlu"
+    ],
+    "partners": [
+      "Gülseren Kuşlu"
+    ],
+    "children": [
+      320,
+      321
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Feriye",
+    "surname": "Kiraz",
+    "birthday": "",
+    "parents": [
+      74,
+      "Hüseyin Kuşlu"
+    ],
+    "partners": [
+      "Ahmet Kiraz"
+    ],
+    "children": [
+      322,
+      323
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Mehmet Ai",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      74,
+      "Hüseyin Kuşlu"
+    ],
+    "partners": [
+      "Gadime Kuşlu"
+    ],
+    "children": [
+      324,
+      325
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Fatma Kuşlu",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      74,
+      "Hüseyin Kuşlu"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 133,
+    "name": "Ali",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      13,
+      "Hatice Alpaslan"
+    ],
+    "partners": [
+      "Saliha Alpaslan"
+    ],
+    "children": [
+      135,
+      136,
+      137,
+      138,
+      139,
+      140
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Hüseyin",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      13,
+      "Hatice Alpaslan"
+    ],
+    "partners": [
+      "Bedriye Alpaslan"
+    ],
+    "children": [
+      141,
+      142,
+      145,
+      144,
+      143,
+      146
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Şafiye",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      133
+    ],
+    "partners": [
+      71
+    ],
+    "children": null
+  },
+  {
+    "id": 136,
+    "name": "Adil",
+    "surname": "Alpaslan",
+    "birthday": "1950",
+    "parents": [
+      133,
+      "Saliha Alpaslan"
+    ],
+    "partners": [
+      24
+    ],
+    "children": [
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Mustafa",
+    "surname": "Alpaslan",
+    "birthday": "1953",
+    "parents": [
+      133,
+      "Saliha Alpaslan"
+    ],
+    "partners": [
+      "Sebahat Alpaslan"
+    ],
+    "children": [
+      147,
+      148
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Şadiye",
+    "surname": "Ceylan",
+    "birthday": "",
+    "parents": [
+      133,
+      "Saliha Alpaslan"
+    ],
+    "partners": [
+      "Kadir Ceylan"
+    ],
+    "children": [
+      150,
+      151,
+      152,
+      153
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Habil",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      133,
+      "Saliha Alpaslan"
+    ],
+    "partners": [
+      "Aygül Alpaslan"
+    ],
+    "children": [
+      155,
+      156,
+      154
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Halime",
+    "surname": "Esen",
+    "birthday": "",
+    "parents": [
+      133,
+      "Saliha Alpaslan"
+    ],
+    "partners": [
+      "Mehmet Esen"
+    ],
+    "children": [
+      158,
+      159
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Sadife",
+    "surname": "Özbayram",
+    "birthday": "",
+    "parents": [
+      134,
+      301
+    ],
+    "partners": [
+      "Muammer Özbayram"
+    ],
+    "children": [
+      160,
+      161,
+      162
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Ganime",
+    "surname": "Erdoğan",
+    "birthday": "",
+    "parents": [
+      134,
+      301
+    ],
+    "partners": [
+      "Mehmet Ali Erdoğan"
+    ],
+    "children": [
+      163,
+      164,
+      165
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Cevdet",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      134,
+      301
+    ],
+    "partners": [
+      "Zehra Alpaslan"
+    ],
+    "children": [
+      166,
+      167
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Ali",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      134,
+      301
+    ],
+    "partners": [
+      "Gülen Alpaslan"
+    ],
+    "children": [
+      168
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Ekrem",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      134,
+      301
+    ],
+    "partners": [
+      "Tevhide Alpaslan"
+    ],
+    "children": [
+      169,
+      170
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Hatice",
+    "surname": "Akbaba",
+    "birthday": "",
+    "parents": [
+      134,
+      301
+    ],
+    "partners": [
+      "Erol Akbaba"
+    ],
+    "children": [
+      171,
+      172
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Barış",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      137,
+      "Sebahat"
+    ],
+    "partners": [
+      "Özgül Alpaslan"
+    ],
+    "children": [
+      385,
+      386
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Ali",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      137,
+      "Sebahat Alpaslan"
+    ],
+    "partners": [
+      "Esra Alpaslan"
+    ],
+    "children": [
+      394,
+      395,
+      396
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Kadriye",
+    "surname": "Toplar",
+    "birthday": "",
+    "parents": [
+      138,
+      "Kadir Ceylan"
+    ],
+    "partners": [
+      "Süleyman Toplar"
+    ],
+    "children": [
+      387
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Murat",
+    "surname": "Ceylan",
+    "birthday": "",
+    "parents": [
+      138,
+      "Kadir Ceylan"
+    ],
+    "partners": [
+      "İlksen Ceylan"
+    ],
+    "children": [
+      390,
+      391
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Ferhat",
+    "surname": "Ceylan",
+    "birthday": "",
+    "parents": [
+      138,
+      "Kadir Ceylan"
+    ],
+    "partners": [
+      "Hale ceylan"
+    ],
+    "children": null
+  },
+  {
+    "id": 153,
+    "name": "Ayşe",
+    "surname": "Derici",
+    "birthday": "",
+    "parents": [
+      138,
+      "Kadir Ceylan"
+    ],
+    "partners": [
+      "Mete Derici"
+    ],
+    "children": [
+      389
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Uğur",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      139,
+      "Aygül Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 155,
+    "name": "Gökhan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      139,
+      "Aygül Alpaslan"
+    ],
+    "partners": [
+      "Tuba Alpaslan"
+    ],
+    "children": [
+      397
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Serhat",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      139,
+      "Aygül Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 158,
+    "name": "Özgür",
+    "surname": "Esen",
+    "birthday": "",
+    "parents": [
+      140,
+      "Mehmet Esen"
+    ],
+    "partners": [
+      "Arzu Esen"
+    ],
+    "children": [
+      392,
+      393
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Özge",
+    "surname": "Esen",
+    "birthday": "",
+    "parents": [
+      140,
+      "Mehmet Esen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 160,
+    "name": "Yasenin",
+    "surname": "Kul",
+    "birthday": "",
+    "parents": [
+      "Muammer Özbayram",
+      141
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 161,
+    "name": "Cesur",
+    "surname": "Özbayram",
+    "birthday": "",
+    "parents": [
+      "Muammer Özbayram",
+      141
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 162,
+    "name": "Zeliha",
+    "surname": "Özbayram",
+    "birthday": "",
+    "parents": [
+      "Muammer Özbayram",
+      141
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 163,
+    "name": "Safiye",
+    "surname": "Kurt",
+    "birthday": "",
+    "parents": [
+      "Mehmet Ali Erdoğan",
+      142
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 164,
+    "name": "Ali",
+    "surname": "Erdoğan",
+    "birthday": "",
+    "parents": [
+      "Mehmet Ali Erdoğan",
+      142
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 165,
+    "name": "Harun",
+    "surname": "Erdoğan",
+    "birthday": "",
+    "parents": [
+      "Mehmet Ali Erdoğan",
+      142
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 166,
+    "name": "İlker",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Zehra Alpaslan",
+      143
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 167,
+    "name": "Sadife",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Zehra Alpaslan",
+      143
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 168,
+    "name": "Gökhan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Gülen Alpaslan",
+      144
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 169,
+    "name": "Yunus",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Tevhide Alpaslan",
+      145
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 170,
+    "name": "Sadife",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      "Tevhide Alpaslan",
+      145
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 171,
+    "name": "Tuncay",
+    "surname": "Akbaba",
+    "birthday": "",
+    "parents": [
+      "Erol Akbaba",
+      146
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 172,
+    "name": "Turgay",
+    "surname": "Akbaba",
+    "birthday": "",
+    "parents": [
+      "Erol Akbaba",
+      146
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 173,
+    "name": "Mehmet Ali",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      14,
+      "Şaban Yener"
+    ],
+    "partners": [
+      "Hanife Yener",
+      "Meryem"
+    ],
+    "children": [
+      179,
+      180,
+      181,
+      182,
+      183,
+      374
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Alaaddin",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      14,
+      "Şaban Yener"
+    ],
+    "partners": [
+      21
+    ],
+    "children": [
+      190,
+      191,
+      192,
+      193,
+      194
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Hasan",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      14,
+      "Şaban Yener"
+    ],
+    "partners": [
+      "Aysel Yener"
+    ],
+    "children": [
+      208,
+      210,
+      209
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Hakkı",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      14,
+      "Şaban Yener"
+    ],
+    "partners": [
+      "Hikmet Yener"
+    ],
+    "children": [
+      218,
+      219,
+      220,
+      221,
+      222,
+      223
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Kamile",
+    "surname": "Gökçe",
+    "birthday": "",
+    "parents": [
+      14,
+      "Şaban Yener"
+    ],
+    "partners": [
+      "Remzi Gökçe"
+    ],
+    "children": [
+      224,
+      225,
+      226,
+      227,
+      228,
+      229
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Hüseyin",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      14,
+      "Şaban Yener"
+    ],
+    "partners": [
+      "Zeliha Yener"
+    ],
+    "children": [
+      369,
+      370,
+      371,
+      372,
+      373
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Niyazi",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      "Hanife Yener",
+      173
+    ],
+    "partners": [
+      "Güler Yener(Merhum) Mukaddes Yener"
+    ],
+    "children": [
+      42,
+      43
+    ]
+  },
+  {
+    "id": 180,
+    "name": "Mustafa",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      "Hanife Yener",
+      173
+    ],
+    "partners": [
+      "Fazilet Yener"
+    ],
+    "children": [
+      184,
+      185
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Ahmet",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      "Hanife Yener",
+      173
+    ],
+    "partners": [
+      "Suna Yener"
+    ],
+    "children": [
+      186,
+      187
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Ali",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      "Hanife Yener",
+      173
+    ],
+    "partners": [
+      "Fadime Yener"
+    ],
+    "children": [
+      188,
+      189
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Emine",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      "Hanife Yener",
+      173
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 184,
+    "name": "Çağlar",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      180,
+      "Fazilet yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 185,
+    "name": "Özge",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      180,
+      "Fazilet Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 186,
+    "name": "Özlem",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      181,
+      "Suna Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 187,
+    "name": "Esin",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      181,
+      "Suna Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 188,
+    "name": "Hanife",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      182,
+      "Fadime Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 189,
+    "name": "Hande",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      182,
+      "Fadime Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 190,
+    "name": "Hatice",
+    "surname": "Bilgen",
+    "birthday": "",
+    "parents": [
+      "Emine(Ebriş) Yener",
+      174
+    ],
+    "partners": [
+      "Mustafa Bilgen"
+    ],
+    "children": [
+      195,
+      196,
+      197
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Sevgül",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      "Emine(Ebriş) Yener",
+      174
+    ],
+    "partners": [
+      "Hüseyin Gök"
+    ],
+    "children": [
+      198,
+      199,
+      203,
+      200
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Fatma",
+    "surname": "Aslaner",
+    "birthday": "",
+    "parents": [
+      "Emine(Ebriş) Yener",
+      174
+    ],
+    "partners": [
+      "Osman Aslaner"
+    ],
+    "children": [
+      201,
+      202
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Birol",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      "Emine(Ebriş) Yener",
+      174
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 194,
+    "name": "Sevim",
+    "surname": "İyiol",
+    "birthday": "",
+    "parents": [
+      "Emine(Ebriş) Yener",
+      174
+    ],
+    "partners": [
+      "Mustafa İyiol"
+    ],
+    "children": [
+      204,
+      205,
+      206,
+      207
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Gülcan",
+    "surname": "Bilgen",
+    "birthday": "",
+    "parents": [
+      190,
+      "Mustafa Bilgen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 196,
+    "name": "Gülçin",
+    "surname": "Bilgen",
+    "birthday": "",
+    "parents": [
+      190,
+      "Mustafa Bilgen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 197,
+    "name": "Gökhan",
+    "surname": "Bilgen",
+    "birthday": "",
+    "parents": [
+      190,
+      "Mustafa Bilgen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 198,
+    "name": "Murat",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      191,
+      "Hüseyin Gök"
+    ],
+    "partners": [
+      "Gülnihal Gök"
+    ],
+    "children": null
+  },
+  {
+    "id": 199,
+    "name": "Nurcan",
+    "surname": "Avcı",
+    "birthday": "",
+    "parents": [
+      191,
+      "Hüseyin Gök"
+    ],
+    "partners": [
+      "Serkan Avcı"
+    ],
+    "children": null
+  },
+  {
+    "id": 200,
+    "name": "Şahin",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      191,
+      "Hüseyin Gök"
+    ],
+    "partners": [
+      "Emine Gök"
+    ],
+    "children": null
+  },
+  {
+    "id": 201,
+    "name": "Dilek",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      192,
+      "Osman Aslaner"
+    ],
+    "partners": [
+      "Şükrü"
+    ],
+    "children": null
+  },
+  {
+    "id": 202,
+    "name": "Hatice",
+    "surname": "Aslaner",
+    "birthday": "",
+    "parents": [
+      192,
+      "Osman Aslaner"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 203,
+    "name": "Orhan",
+    "surname": "Aslaner",
+    "birthday": "",
+    "parents": [
+      191,
+      "Osman Aslaner"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 204,
+    "name": "Semra",
+    "surname": "Coşkun",
+    "birthday": "",
+    "parents": [
+      194,
+      "Mustafa İyiol"
+    ],
+    "partners": [
+      "Cengiz Coşkun"
+    ],
+    "children": null
+  },
+  {
+    "id": 205,
+    "name": "Osman",
+    "surname": "İyiol",
+    "birthday": "",
+    "parents": [
+      194,
+      "Mustafa İyiol"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 206,
+    "name": "Emine",
+    "surname": "İyiol",
+    "birthday": "",
+    "parents": [
+      194,
+      "Mustafa İyiol"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 207,
+    "name": "Selda",
+    "surname": "İyiol",
+    "birthday": "",
+    "parents": [
+      194,
+      "Mustafa İyiol"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 208,
+    "name": "Fethiye",
+    "surname": "Erkan",
+    "birthday": "",
+    "parents": [
+      175,
+      "Aysel Yener"
+    ],
+    "partners": [
+      "Hakkı İsmail Erkan"
+    ],
+    "children": [
+      211,
+      212
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Mehmet",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      175,
+      "Aysel Yener"
+    ],
+    "partners": [
+      "Havva Yener"
+    ],
+    "children": [
+      213,
+      214,
+      215,
+      216
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Yılmaz",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      175,
+      "Aynur Yener"
+    ],
+    "partners": null,
+    "children": [
+      217
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Ahmet",
+    "surname": "Erkan",
+    "birthday": "",
+    "parents": [
+      208,
+      "Hakkı İsmail Erkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 212,
+    "name": "Aslı",
+    "surname": "Erkan",
+    "birthday": "",
+    "parents": [
+      208,
+      "Hakkı İsmail Erkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 213,
+    "name": "Ayşegül",
+    "surname": "Dinç",
+    "birthday": "",
+    "parents": [
+      "Havva Yener",
+      209
+    ],
+    "partners": [
+      "Ramazan Dinç"
+    ],
+    "children": null
+  },
+  {
+    "id": 214,
+    "name": "Aysun",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      209,
+      "Havva Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 215,
+    "name": "Aylin",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      209,
+      "Havva Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 216,
+    "name": "Aydın",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      209,
+      "Havva Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 217,
+    "name": "Aysel",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      210,
+      "Aynur Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 218,
+    "name": "Atike",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      176,
+      "Hikmet Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 219,
+    "name": "Emine",
+    "surname": "Gökçe",
+    "birthday": "",
+    "parents": [
+      176,
+      "Hikmet Yener"
+    ],
+    "partners": [
+      "Süleyman Gökçe"
+    ],
+    "children": null
+  },
+  {
+    "id": 220,
+    "name": "Hacer",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      176,
+      "HikmetYener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 221,
+    "name": "Gülten",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      176,
+      "Hikmet Yener"
+    ],
+    "partners": [
+      "Seyid"
+    ],
+    "children": null
+  },
+  {
+    "id": 222,
+    "name": "Ayten",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      176,
+      "Hikmet Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 223,
+    "name": "Şaban",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      176,
+      "Hikmet Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 224,
+    "name": "Atike",
+    "surname": "Gökçe",
+    "birthday": "",
+    "parents": [
+      177,
+      "Remzi Gökçe"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 225,
+    "name": "Emine",
+    "surname": "Gökçe",
+    "birthday": "",
+    "parents": [
+      177,
+      "Remzi Gökçe"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 226,
+    "name": "Ayşe",
+    "surname": "Gökçe",
+    "birthday": "",
+    "parents": [
+      177,
+      "Remzi Gökçe"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 227,
+    "name": "Sultan",
+    "surname": "Gökçe",
+    "birthday": "",
+    "parents": [
+      177,
+      "Remzi Gökçe"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 228,
+    "name": "Yusuf",
+    "surname": "Gökçe",
+    "birthday": "",
+    "parents": [
+      177,
+      "Remzi Gökçe"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 229,
+    "name": "Şaban",
+    "surname": "Gökçe",
+    "birthday": "",
+    "parents": [
+      177,
+      "Remzi Gökçe"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 230,
+    "name": "Nuran",
+    "surname": "Alpcan",
+    "birthday": "",
+    "parents": [
+      53,
+      "İsmet Alpcan"
+    ],
+    "partners": [
+      "Orhan Alpcan"
+    ],
+    "children": [
+      235
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Nurcan",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      53,
+      "İsmet Alpcan"
+    ],
+    "partners": [
+      "Ruhi"
+    ],
+    "children": null
+  },
+  {
+    "id": 232,
+    "name": "Ayhan",
+    "surname": "Alpcan",
+    "birthday": "",
+    "parents": [
+      53,
+      "İsmet Alpcan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 233,
+    "name": "Aydın",
+    "surname": "Alpcan",
+    "birthday": "",
+    "parents": [
+      53,
+      "İsmet Alpcan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 234,
+    "name": "Bülent",
+    "surname": "Alpcan",
+    "birthday": "",
+    "parents": [
+      53,
+      "İsmet Alpcan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 235,
+    "name": "Mücahit",
+    "surname": "Alpcan",
+    "birthday": "",
+    "parents": [
+      230,
+      "Orhan Alpcan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 236,
+    "name": "Yücel",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": null,
+    "partners": [
+      57,
+      "Gülten Özkan"
+    ],
+    "children": null
+  },
+  {
+    "id": 237,
+    "name": "Tuncay",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      57,
+      "Gülten Özkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 238,
+    "name": "Ayşe",
+    "surname": "Kaya",
+    "birthday": "",
+    "parents": [
+      58,
+      "Erol Gök"
+    ],
+    "partners": [
+      "Fikri Kaya"
+    ],
+    "children": [
+      365
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Emine",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      58,
+      "Erol Gök"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 240,
+    "name": "Hacer",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      58,
+      "Erol Gök"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 241,
+    "name": "Emin",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      58,
+      "Erol Gök"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 242,
+    "name": "Mustafa",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      60,
+      "Kadriye Özkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 243,
+    "name": "Duygu",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      60,
+      "Kadriye Özkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 245,
+    "name": "Ahmet",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      7,
+      "Süleyman Çetinkaya"
+    ],
+    "partners": [
+      "Nefize Çetinkaya"
+    ],
+    "children": [
+      247,
+      248,
+      249,
+      250,
+      274
+    ]
+  },
+  {
+    "id": 246,
+    "name": "Mehmet",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      7,
+      "Süleyman Çetinkaya"
+    ],
+    "partners": [
+      "Zeliha Çetinkaya"
+    ],
+    "children": [
+      270,
+      271,
+      273,
+      272
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Süleyman",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      245,
+      "Nefize Çetinkaya"
+    ],
+    "partners": [
+      "Fatma Çetinkaya"
+    ],
+    "children": [
+      275,
+      277,
+      278,
+      276
+    ]
+  },
+  {
+    "id": 248,
+    "name": "Nail",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      245,
+      "Nefize Çetinkaya"
+    ],
+    "partners": [
+      "Fatma Çetinkaya"
+    ],
+    "children": [
+      279,
+      280,
+      281
+    ]
+  },
+  {
+    "id": 249,
+    "name": "Havva",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      245,
+      "Nefize Çetinkaya"
+    ],
+    "partners": [
+      "Hüseyin Gök"
+    ],
+    "children": [
+      282,
+      283,
+      284,
+      285,
+      286,
+      287
+    ]
+  },
+  {
+    "id": 250,
+    "name": "Ayşe",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      245,
+      "Nefize Çetinkaya"
+    ],
+    "partners": [
+      "Feridun Gök"
+    ],
+    "children": [
+      289,
+      290,
+      399
+    ]
+  },
+  {
+    "id": 251,
+    "name": "Kerim",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      7,
+      "Ali Osman Çetinkaya"
+    ],
+    "partners": [
+      "Fatma çetinkaya"
+    ],
+    "children": [
+      291,
+      292,
+      293
+    ]
+  },
+  {
+    "id": 252,
+    "name": "Ayşe",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      7,
+      "Ali Osman Çetinkaya"
+    ],
+    "partners": [
+      70
+    ],
+    "children": [
+      288
+    ]
+  },
+  {
+    "id": 253,
+    "name": "Ahmet",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      54,
+      "Emine Özkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 254,
+    "name": "Bülent",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      54,
+      "Emine Özkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 255,
+    "name": "Fethi",
+    "surname": "Bozdoğan",
+    "birthday": "",
+    "parents": [
+      56,
+      405
+    ],
+    "partners": [
+      "Jale Bozdoğan"
+    ],
+    "children": null
+  },
+  {
+    "id": 256,
+    "name": "Gülay",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      56,
+      405
+    ],
+    "partners": [
+      "Fethi"
+    ],
+    "children": null
+  },
+  {
+    "id": 257,
+    "name": "İzzet",
+    "surname": "Bozdoğan",
+    "birthday": "",
+    "parents": [
+      56,
+      405
+    ],
+    "partners": [
+      "Yelda Bozdoğan"
+    ],
+    "children": null
+  },
+  {
+    "id": 258,
+    "name": "Rukiye",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      61
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 259,
+    "name": "Atlas",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      61
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 260,
+    "name": "Rafet",
+    "surname": "Serpan",
+    "birthday": "",
+    "parents": [
+      62,
+      "Alaattin Serpen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 261,
+    "name": "Fikret",
+    "surname": "Serpen",
+    "birthday": "",
+    "parents": [
+      62,
+      "Alaattin Serpen"
+    ],
+    "partners": [
+      277
+    ],
+    "children": [
+      353,
+      354
+    ]
+  },
+  {
+    "id": 262,
+    "name": "Feride",
+    "surname": "Akdeniz",
+    "birthday": "",
+    "parents": [
+      63,
+      "Fahrettin Bozdoğan"
+    ],
+    "partners": [
+      "Mükremin Akdeniz"
+    ],
+    "children": null
+  },
+  {
+    "id": 263,
+    "name": "Nafiye",
+    "surname": "Kurt",
+    "birthday": "",
+    "parents": [
+      63,
+      "Fahrettin Bozdoğan"
+    ],
+    "partners": [
+      "Metin Kurt"
+    ],
+    "children": [
+      355,
+      356
+    ]
+  },
+  {
+    "id": 264,
+    "name": "İsmail",
+    "surname": "Bozdoğan",
+    "birthday": "",
+    "parents": [
+      63,
+      "Fahrettin Bozdoğan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 265,
+    "name": "Mikail",
+    "surname": "Bozdoğan",
+    "birthday": "",
+    "parents": [
+      63
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 266,
+    "name": "Süleyman",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      65,
+      "Zehra Güneş"
+    ],
+    "partners": [
+      "Emine Güneş"
+    ],
+    "children": [
+      267
+    ]
+  },
+  {
+    "id": 267,
+    "name": "Mehmet",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      266,
+      "Emine Güneş"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 268,
+    "name": "Şaban",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      66,
+      "Nuray Güneş"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 269,
+    "name": "Hatice",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      66,
+      "Nuray Güneş"
+    ],
+    "partners": [
+      "Kadir"
+    ],
+    "children": null
+  },
+  {
+    "id": 270,
+    "name": "Mehmet Ali",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      246,
+      "Zeliha Çetinkaya"
+    ],
+    "partners": [
+      "Şükran Çetinkaya"
+    ],
+    "children": null
+  },
+  {
+    "id": 271,
+    "name": "Fatma",
+    "surname": "Kurt",
+    "birthday": "",
+    "parents": [
+      246,
+      "Zeliha Çetinkaya"
+    ],
+    "partners": [
+      "Nazmi Kurt"
+    ],
+    "children": [
+      357,
+      358
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Rukiye",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      246,
+      "Zeliha Çetinkaya"
+    ],
+    "partners": [
+      "Mustafa Özkan"
+    ],
+    "children": null
+  },
+  {
+    "id": 273,
+    "name": "Emine",
+    "surname": "Öztürk",
+    "birthday": "",
+    "parents": [
+      246,
+      "Zeliha Çetinkaya"
+    ],
+    "partners": [
+      "Muharrem Öztürk"
+    ],
+    "children": null
+  },
+  {
+    "id": 274,
+    "name": "Salih",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      245,
+      "Zeliha Çetinkaya"
+    ],
+    "partners": [
+      "Hanife Çetinkaya"
+    ],
+    "children": null
+  },
+  {
+    "id": 275,
+    "name": "Hanife",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      247,
+      "Fatma Çetinkaya"
+    ],
+    "partners": [
+      "Salih Çetinkaya"
+    ],
+    "children": null
+  },
+  {
+    "id": 276,
+    "name": "İdris",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      247,
+      "Fatma Çetinkaya"
+    ],
+    "partners": [
+      398
+    ],
+    "children": null
+  },
+  {
+    "id": 277,
+    "name": "Aysel",
+    "surname": "Serpen",
+    "birthday": "",
+    "parents": [
+      247,
+      "Fatma Çetinkaya"
+    ],
+    "partners": [
+      261
+    ],
+    "children": null
+  },
+  {
+    "id": 278,
+    "name": "Ahmet",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      247,
+      "Fatma Çetinkaya"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 279,
+    "name": "Ali Osman",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      248,
+      "Fatma Çetinkaya"
+    ],
+    "partners": [
+      "Hüsniye Çetinkaya"
+    ],
+    "children": [
+      359
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Ümmügül",
+    "surname": "Akyüz",
+    "birthday": "",
+    "parents": [
+      248,
+      "Fatma Çetinkaya"
+    ],
+    "partners": [
+      "Nevzat Akyüz"
+    ],
+    "children": [
+      360
+    ]
+  },
+  {
+    "id": 281,
+    "name": "İsa",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      248,
+      "Fatma Çetinkaya"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 282,
+    "name": "Hasan",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      249,
+      "Hüseyin Gök"
+    ],
+    "partners": [
+      "Gülşen Gök"
+    ],
+    "children": null
+  },
+  {
+    "id": 283,
+    "name": "Hüseyin",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      249,
+      "Hüseyin Gök"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 284,
+    "name": "Mustafa",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      249,
+      "Hüseyin Gök"
+    ],
+    "partners": [
+      "Hanife Gök"
+    ],
+    "children": null
+  },
+  {
+    "id": 285,
+    "name": "Hacer",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      249,
+      "Hüseyin Gök"
+    ],
+    "partners": [
+      "Ali Tekin"
+    ],
+    "children": [
+      361,
+      362
+    ]
+  },
+  {
+    "id": 286,
+    "name": "Hatice",
+    "surname": "Sarıoğlu",
+    "birthday": "",
+    "parents": [
+      249,
+      "Hüseyin Gök"
+    ],
+    "partners": [
+      "Hasan Sarıoğlu"
+    ],
+    "children": [
+      363
+    ]
+  },
+  {
+    "id": 287,
+    "name": "Hanife",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      249,
+      "Hüseyin Gök"
+    ],
+    "partners": null,
+    "children": [
+      364
+    ]
+  },
+  {
+    "id": 288,
+    "name": "Ali",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      252,
+      "Ferudun Gök"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 289,
+    "name": "Ayşe",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      250,
+      "Ferudun Gök"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 290,
+    "name": "Çağlar",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      250,
+      "Ferudun Gök"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 291,
+    "name": "Feriha",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      251,
+      "Fatma Çetinkaya"
+    ],
+    "partners": [
+      "Mustafa Tekin"
+    ],
+    "children": [
+      294,
+      295
+    ]
+  },
+  {
+    "id": 292,
+    "name": "Seviye",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      251,
+      "Fatma Çetinkaya"
+    ],
+    "partners": [
+      "Seyfettin Tekin"
+    ],
+    "children": [
+      296,
+      297
+    ]
+  },
+  {
+    "id": 293,
+    "name": "Musa",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      251,
+      "Fatma Çetinkaya"
+    ],
+    "partners": [
+      "Hatice Çetinkaya"
+    ],
+    "children": null
+  },
+  {
+    "id": 294,
+    "name": "Ruhi",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      291,
+      "Mustafa Tekin"
+    ],
+    "partners": [
+      "Müzeyen Tekin"
+    ],
+    "children": null
+  },
+  {
+    "id": 295,
+    "name": "Ufuk",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      291,
+      "Mustafa Tekin"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 296,
+    "name": "İlker",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      292,
+      "Seyfettin Tekin"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 297,
+    "name": "Soner",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      292,
+      "Seyfettin Tekin"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 298,
+    "name": "Harun",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      55,
+      "Emine Özkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 299,
+    "name": "Özlem",
+    "surname": "Özkan",
+    "birthday": "",
+    "parents": [
+      55,
+      "Emine Özkan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 300,
+    "name": "Cemal",
+    "surname": "Zeybek",
+    "birthday": "",
+    "parents": [
+      11,
+      "Hasan Zeybek"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 301,
+    "name": "Bedriye",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      15,
+      "Ali Ok"
+    ],
+    "partners": [
+      134
+    ],
+    "children": [
+      141,
+      142,
+      145,
+      144,
+      143,
+      146
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Mehmet",
+    "surname": "Ok",
+    "birthday": "",
+    "parents": [
+      15,
+      "Ali Ok"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 303,
+    "name": "Hüseyin",
+    "surname": "Ok",
+    "birthday": "",
+    "parents": [
+      15,
+      "Ali Ok"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 304,
+    "name": "Nihat",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      75,
+      "Süleyman Kuşlu"
+    ],
+    "partners": null,
+    "children": [
+      305
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Enes",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      304
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 306,
+    "name": "Berkay",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      82
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 307,
+    "name": "Afra",
+    "surname": "Beşik",
+    "birthday": "",
+    "parents": [
+      83
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 308,
+    "name": "İbrahim",
+    "surname": "Yenilmez",
+    "birthday": "",
+    "parents": [
+      73,
+      "Mehmet Yenilmez"
+    ],
+    "partners": [
+      "Zahide Yenilmez"
+    ],
+    "children": null
+  },
+  {
+    "id": 309,
+    "name": "Ayşe",
+    "surname": "Çalışkan",
+    "birthday": "",
+    "parents": [
+      73,
+      "Mehmet Yenilmez"
+    ],
+    "partners": [
+      "Salim Çalışkan"
+    ],
+    "children": null
+  },
+  {
+    "id": 310,
+    "name": "Ayşe",
+    "surname": "Taşkın",
+    "birthday": "",
+    "parents": [
+      "Hasan Dağ",
+      124
+    ],
+    "partners": [
+      "Bülent Taşkın"
+    ],
+    "children": [
+      366
+    ]
+  },
+  {
+    "id": 311,
+    "name": "Saniye",
+    "surname": "Madra",
+    "birthday": "",
+    "parents": [
+      "Hasan Dağ",
+      124
+    ],
+    "partners": [
+      "Bülent Madra"
+    ],
+    "children": [
+      367,
+      368
+    ]
+  },
+  {
+    "id": 312,
+    "name": "Asuman",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      126,
+      "Ayşe Güneş"
+    ],
+    "partners": [
+      95
+    ],
+    "children": null
+  },
+  {
+    "id": 313,
+    "name": "Hatice",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      126,
+      "Ayşe Güneş"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 314,
+    "name": "İbrahim",
+    "surname": "Güneş",
+    "birthday": "",
+    "parents": [
+      126,
+      "Ayşe Güneş"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 315,
+    "name": "Ömer",
+    "surname": "Yılmaz",
+    "birthday": "",
+    "parents": [
+      127,
+      "Nurettin Yılmaz"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 316,
+    "name": "Fatih",
+    "surname": "Yılmaz",
+    "birthday": "",
+    "parents": [
+      127,
+      "Nurettin Yılmaz"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 317,
+    "name": "Nermin",
+    "surname": "Baydar",
+    "birthday": "",
+    "parents": [
+      127,
+      "Nurettin Yılmaz"
+    ],
+    "partners": [
+      "Celal Baydar"
+    ],
+    "children": [
+      318,
+      319,
+      388
+    ]
+  },
+  {
+    "id": 318,
+    "name": "Feyza",
+    "surname": "Baydar",
+    "birthday": "",
+    "parents": [
+      317,
+      "Celal Baydar"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 319,
+    "name": "",
+    "surname": "Baydar",
+    "birthday": "",
+    "parents": [
+      317,
+      "Celal Baydar"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 320,
+    "name": "Sinan",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      129,
+      "Gülseren Kuşlu"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 321,
+    "name": "Esra",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      129,
+      "Gülseren Kuşlu"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 322,
+    "name": "Elif",
+    "surname": "Vidinlioğlu",
+    "birthday": "",
+    "parents": [
+      130,
+      "Ahmet Kiraz"
+    ],
+    "partners": [
+      "Mehmet Vidinlioğlu"
+    ],
+    "children": null
+  },
+  {
+    "id": 323,
+    "name": "Ali",
+    "surname": "Kiraz",
+    "birthday": "",
+    "parents": [
+      130,
+      "Ahmet Kiraz"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 324,
+    "name": "Bethül",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      131,
+      "Gadime Kuşlu"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 325,
+    "name": "Mücahit",
+    "surname": "Kuşlu",
+    "birthday": "",
+    "parents": [
+      131,
+      "Gadime Kuşlu"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 326,
+    "name": "Ezgi",
+    "surname": "Özgün",
+    "birthday": "",
+    "parents": [
+      27,
+      "Kadriye Tekin"
+    ],
+    "partners": [
+      "Serdar Özgün"
+    ],
+    "children": null
+  },
+  {
+    "id": 327,
+    "name": "Gözde",
+    "surname": "Işık",
+    "birthday": "",
+    "parents": [
+      30,
+      "İsmail Işık"
+    ],
+    "partners": null,
+    "children": [
+      328
+    ]
+  },
+  {
+    "id": 328,
+    "name": "Alya",
+    "surname": "Özdemir",
+    "birthday": "",
+    "parents": [
+      327
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 329,
+    "name": "Egemen",
+    "surname": "Işık",
+    "birthday": "",
+    "parents": [
+      30,
+      "İsmail Işık"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 330,
+    "name": "Ali",
+    "surname": "karadayı",
+    "birthday": "",
+    "parents": [
+      18,
+      "Havva Karadayı"
+    ],
+    "partners": [
+      "Bilge Karadayı"
+    ],
+    "children": null
+  },
+  {
+    "id": 331,
+    "name": "Nazmiye",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      18,
+      "Havva Karadayı"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 332,
+    "name": "Aytaç",
+    "surname": "Karadayı",
+    "birthday": "",
+    "parents": [
+      18,
+      "Havva Karadayı"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 333,
+    "name": "Ayşe",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      18,
+      "Havva Karadayı"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 334,
+    "name": "Atilla",
+    "surname": "Karadayı",
+    "birthday": "",
+    "parents": [
+      18,
+      "Havva Karadayı"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 335,
+    "name": "Erdoğan",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      19,
+      "Hüseyin Yıldırım"
+    ],
+    "partners": [
+      "Nevin Yıldırım"
+    ],
+    "children": [
+      339,
+      340
+    ]
+  },
+  {
+    "id": 336,
+    "name": "Hakkı",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      19,
+      "Hüseyin Yıldırım"
+    ],
+    "partners": [
+      "Fatma Yıldırım"
+    ],
+    "children": [
+      341,
+      342
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Mehmet",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      19,
+      "Hüseyin Yıldırım"
+    ],
+    "partners": [
+      "Hayriye Yıldırım"
+    ],
+    "children": [
+      343,
+      344
+    ]
+  },
+  {
+    "id": 338,
+    "name": "Cevdet",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      19,
+      "Hüseyin Yıldırım"
+    ],
+    "partners": [
+      "Firdevs Yıldırım"
+    ],
+    "children": [
+      345,
+      346
+    ]
+  },
+  {
+    "id": 339,
+    "name": "Özgür",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      335,
+      "Nevin Yıldırım"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 340,
+    "name": "Uğur",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      335,
+      "Nevin Yıldırım"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 341,
+    "name": "Erden",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      336,
+      "Fatma Yıldırım"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 342,
+    "name": "Evren",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      336,
+      "Fatma Yıldırım"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 343,
+    "name": "Taner",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      337,
+      "Hayriye Yıldırım"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 344,
+    "name": "Soner",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      337,
+      "hayriye Yıldırım"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 345,
+    "name": "Diler",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      338,
+      "Firdevs Yıldırım"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 346,
+    "name": "Ertan",
+    "surname": "Yıldırım",
+    "birthday": "",
+    "parents": [
+      338,
+      "Firdevs Yıldırım"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 347,
+    "name": "Mesut",
+    "surname": "Göktepe",
+    "birthday": "",
+    "parents": [
+      22,
+      "İsmail Göktepe"
+    ],
+    "partners": [
+      "Elvan Göktepe"
+    ],
+    "children": null
+  },
+  {
+    "id": 348,
+    "name": "Mesude",
+    "surname": "Demirkapı",
+    "birthday": "",
+    "parents": [
+      22,
+      "İsmail Göktepe"
+    ],
+    "partners": [
+      "Medeni Demirkapı"
+    ],
+    "children": null
+  },
+  {
+    "id": 349,
+    "name": "Ali",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      23
+    ],
+    "partners": null,
+    "children": [
+      380
+    ]
+  },
+  {
+    "id": 350,
+    "name": "İdris",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      23,
+      "Aziz Çığ"
+    ],
+    "partners": [
+      "Ayfer Çığ"
+    ],
+    "children": [
+      383,
+      384
+    ]
+  },
+  {
+    "id": 351,
+    "name": "Halil",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      23,
+      "Aziz Çığ"
+    ],
+    "partners": null,
+    "children": [
+      382
+    ]
+  },
+  {
+    "id": 352,
+    "name": "İsmail",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      23,
+      "Aziz Çığ"
+    ],
+    "partners": null,
+    "children": [
+      381
+    ]
+  },
+  {
+    "id": 353,
+    "name": "Yılmaz",
+    "surname": "Serpen",
+    "birthday": "",
+    "parents": [
+      261,
+      "Aysel Serpen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 354,
+    "name": "Selma",
+    "surname": "Serpen",
+    "birthday": "",
+    "parents": [
+      261,
+      "Aysel Serpen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 355,
+    "name": "Burak",
+    "surname": "Kurt",
+    "birthday": "",
+    "parents": [
+      263,
+      "Metin Kurt"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 356,
+    "name": "Buse",
+    "surname": "Kurt",
+    "birthday": "",
+    "parents": [
+      263,
+      "Metin Kurt"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 357,
+    "name": "Gülfer",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      271,
+      "Nazmi Kurt"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 358,
+    "name": "Ünal",
+    "surname": "Kurt",
+    "birthday": "",
+    "parents": [
+      271,
+      "Nazmi Kurt"
+    ],
+    "partners": [
+      "Cemile Kurt"
+    ],
+    "children": null
+  },
+  {
+    "id": 359,
+    "name": "Emre",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      279,
+      "Hüsniye Çetinkaya"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 360,
+    "name": "Ebru",
+    "surname": "Akyüz",
+    "birthday": "",
+    "parents": [
+      280,
+      "Nevzat Akyüz"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 361,
+    "name": "Özlem",
+    "surname": "Özbek",
+    "birthday": "",
+    "parents": [
+      285,
+      "Ali Tekin"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 362,
+    "name": "Fulya",
+    "surname": "Tekin",
+    "birthday": "",
+    "parents": [
+      285,
+      "Ali Tekin"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 363,
+    "name": "Özge",
+    "surname": "Sarıoğlu",
+    "birthday": "",
+    "parents": [
+      286,
+      "Hasan Sarıoğlu"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 364,
+    "name": "Derya",
+    "surname": "Şayan",
+    "birthday": "",
+    "parents": [
+      287,
+      "İsmail Bozok"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 365,
+    "name": "Atilla (ŞEHİDİMİZ)",
+    "surname": "Kaya",
+    "birthday": "",
+    "parents": [
+      238,
+      "Fikri kaya"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 366,
+    "name": "Alper",
+    "surname": "Taşkın",
+    "birthday": "",
+    "parents": [
+      310,
+      "Bülent Taşkın"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 367,
+    "name": "Dinçer",
+    "surname": "Madra",
+    "birthday": "",
+    "parents": [
+      311,
+      "Bülent Madra"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 368,
+    "name": "Ebru",
+    "surname": "Madra",
+    "birthday": "",
+    "parents": [
+      311,
+      "Bülent Madra"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 369,
+    "name": "Zekiye",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      178,
+      "Zeliha yener"
+    ],
+    "partners": [
+      "Kadir Yener"
+    ],
+    "children": null
+  },
+  {
+    "id": 370,
+    "name": "Zahide",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      178,
+      "Zeliha Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 371,
+    "name": "Zehra",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      178,
+      "Zeliha Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 372,
+    "name": "Ahmet Emin",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      178,
+      "Zeliha Yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 373,
+    "name": "Şaban",
+    "surname": "Yener",
+    "birthday": "",
+    "parents": [
+      178,
+      "Zeliha yener"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 374,
+    "name": "Emine",
+    "surname": "Ürküt",
+    "birthday": "",
+    "parents": [
+      173,
+      "Meryem"
+    ],
+    "partners": [
+      "Halil İbrahim Ürküt"
+    ],
+    "children": [
+      375,
+      378
+    ]
+  },
+  {
+    "id": 375,
+    "name": "Mehmet Ali",
+    "surname": "Ürküt",
+    "birthday": "",
+    "parents": [
+      374,
+      "Halil İbrahim Ürküt"
+    ],
+    "partners": [
+      "Sabriye Ürküt"
+    ],
+    "children": [
+      376,
+      377
+    ]
+  },
+  {
+    "id": 376,
+    "name": "Güler",
+    "surname": "Ürküt",
+    "birthday": "",
+    "parents": [
+      375,
+      "Sabriye Ürküt"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 377,
+    "name": "Emre",
+    "surname": "Ürküt",
+    "birthday": "",
+    "parents": [
+      375,
+      "Sabriye Ürküt"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 378,
+    "name": "Fadime",
+    "surname": "Yorulmaz",
+    "birthday": "",
+    "parents": [
+      374,
+      "Halil İbrahim Ürküt"
+    ],
+    "partners": [
+      "Orhan Yorulmaz"
+    ],
+    "children": [
+      379
+    ]
+  },
+  {
+    "id": 379,
+    "name": "Duygu",
+    "surname": "Yorulmaz",
+    "birthday": "",
+    "parents": [
+      378,
+      "Orhan Yorulmaz"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 380,
+    "name": "Özkan",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      349
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 381,
+    "name": "Safinaz",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      352
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 382,
+    "name": "Aziz",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      351
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 383,
+    "name": "Ömür",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      350,
+      "Ayfer Çığ"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 384,
+    "name": "Özlem",
+    "surname": "Çığ",
+    "birthday": "",
+    "parents": [
+      350,
+      "Ayfer Çığ"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 385,
+    "name": "Onur",
+    "surname": "Alpasan",
+    "birthday": "",
+    "parents": [
+      147,
+      "Özgül Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 386,
+    "name": "Öznur",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      147,
+      "Özgül Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 387,
+    "name": "Deniz Ece",
+    "surname": "Toplar",
+    "birthday": "",
+    "parents": [
+      150,
+      "Süleyman Toplar"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 388,
+    "name": "Betül",
+    "surname": "Baydar",
+    "birthday": "",
+    "parents": [
+      317,
+      "Celal Baydar"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 389,
+    "name": "Cansu Ceylin",
+    "surname": "Derici",
+    "birthday": "",
+    "parents": [
+      153,
+      "Mete Derici"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 390,
+    "name": "Aslı",
+    "surname": "Ceylan",
+    "birthday": "",
+    "parents": [
+      151,
+      "İlksen Ceylan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 391,
+    "name": "Nazlı",
+    "surname": "Ceylan",
+    "birthday": "",
+    "parents": [
+      151,
+      "İlksen Ceylan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 392,
+    "name": "Soykan Ege",
+    "surname": "Esen",
+    "birthday": "",
+    "parents": [
+      158,
+      "Arzu Esen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 393,
+    "name": "Hera",
+    "surname": "Esen",
+    "birthday": "",
+    "parents": [
+      158,
+      "Arzu Esen"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 394,
+    "name": "Poyraz Ali Eymen",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      148,
+      "Esra Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 395,
+    "name": "Mustafa Çağan",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      148,
+      "Esra Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 396,
+    "name": "Arya",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      148,
+      "Esra Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 397,
+    "name": "Göktuğ",
+    "surname": "Alpaslan",
+    "birthday": "",
+    "parents": [
+      155,
+      "Tuba Alpaslan"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 398,
+    "name": "Ayşe",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      62,
+      "Alaattin Serpen"
+    ],
+    "partners": [
+      276
+    ],
+    "children": null
+  },
+  {
+    "id": 399,
+    "name": "Ali",
+    "surname": "Gök",
+    "birthday": "",
+    "parents": [
+      250,
+      "Ferudun Gök"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 400,
+    "name": "Hüseyin",
+    "surname": "Bozdoğan",
+    "birthday": "",
+    "parents": [
+      "Mustafa Bozdoğan(Kara Mustafa)",
+      6
+    ],
+    "partners": [
+      "Havva Bozdoğan"
+    ],
+    "children": null
+  },
+  {
+    "id": 401,
+    "name": "Fatma",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      6,
+      " Mustafa Bozdoğan(Kara Mustafa)"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 402,
+    "name": "Fahrettin",
+    "surname": "Çetinkaya",
+    "birthday": "",
+    "parents": [
+      6,
+      " Mustafa Bozdoğan(Kara Mustafa)"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 405,
+    "name": "Mustafa(Bebek Mustafa)",
+    "surname": "Bozdoğan",
+    "birthday": "",
+    "parents": [
+      6,
+      " Mustafa Bozdoğan(Kara Mustafa)"
+    ],
+    "partners": [
+      56
+    ],
+    "children": [
+      255,
+      256,
+      257
+    ]
+  },
+  {
+    "id": 406,
+    "name": "Muhterem",
+    "surname": "Özel",
+    "birthday": "",
+    "parents": [
+      22,
+      "Mustafa Özel"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 407,
+    "name": "Nursel",
+    "surname": "",
+    "birthday": "",
+    "parents": [
+      22,
+      "Mustafa Özel"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 408,
+    "name": "Gülser",
+    "surname": "Özel",
+    "birthday": "",
+    "parents": [
+      22,
+      "Mustafa Özel"
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 409,
+    "name": "Gülfer",
+    "surname": "Çamaçıkan",
+    "birthday": "",
+    "parents": [
+      22,
+      "Mustafa Özel"
+    ],
+    "partners": [
+      "Mahir Çamaçıkan"
+    ],
     "children": null
   }
 ]
