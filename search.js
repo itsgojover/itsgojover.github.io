@@ -137,7 +137,7 @@ function displayPersonDetails(personId) {
 // Function to format names as clickable links
 function formatClickableNames(ids) {
     return ids
-        ? ids.map(id => `<a href="#" class="personLink" data-id="${id}">${getNameById(id)}</a>`).join(', ')
+        ? ids.map(id => Number(id) || id == 0 ? `<a href="#" class="personLink" data-id="${id}">${getNameById(id)}</a>`: id).join(', ')
         : 'Yok';
 }
 
