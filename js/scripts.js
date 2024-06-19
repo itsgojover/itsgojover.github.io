@@ -16,7 +16,7 @@ async function fetchPeopleData() {
 function searchPeople(query) {
     const suggestionsContainer = document.getElementById('suggestions');
 
-    if (query.length >= 1) {
+    if (query.length >= 2) {
         const matchingPeople = peopleData.filter(person => {
             const fullName = `${person.name} ${person.surname}`;
             const startsWithQuery = fullName.toLowerCase().startsWith(query.toLowerCase());
@@ -94,10 +94,10 @@ document.getElementById('search').addEventListener('keydown', (event) => {
     const suggestions = document.querySelectorAll('#suggestions li');
     const suggestionsCount = suggestions.length;
 
-    if (event.key === 'ArrowDown') {
+    if (event.key === 'ArrowDown' && selectedIndex < suggestionsCount - 1) {
         event.preventDefault(); // Prevent scrolling the page
         selectedIndex = (selectedIndex + 1) % suggestionsCount;
-    } else if (event.key === 'ArrowUp') {
+    } else if (event.key === 'ArrowUp' && selectedIndex > 0) {
         event.preventDefault(); // Prevent scrolling the page
         selectedIndex = (selectedIndex - 1 + suggestionsCount) % suggestionsCount;
     } else if (event.key === 'Enter' && selectedIndex !== -1) {
@@ -156,13 +156,13 @@ function displayPersonDetails(personId) {
 // Function to show person details
 function showPersonDetails() {
     const personDetailsBox = document.getElementById('personDetails');
-    personDetailsBox.style.display = 'block';
+    personDetailsBox.classList.add('show'); // Use class toggle instead of display
 }
 
 // Function to close person details
 function closePersonDetails() {
     const personDetailsBox = document.getElementById('personDetails');
-    personDetailsBox.style.display = 'none';
+    personDetailsBox.classList.remove('show'); // Use class toggle
     document.getElementById('search').value = "";
 }
 
@@ -179,9 +179,12 @@ function attachClickEvents(ids) {
     personLinks.forEach(link => {
         link.addEventListener('click', (event) => {
             event.preventDefault();
-            const clickedId = event.target.dataset.id;
-            document.getElementById('search').value = getNameById(Number(clickedId));
-            displayPersonDetails(Number(clickedId));
+            closePersonDetails()
+            setTimeout(() => {
+                const clickedId = event.target.dataset.id;
+                document.getElementById('search').value = getNameById(Number(clickedId));
+                displayPersonDetails(Number(clickedId));
+            }, 300);
         });
     });
 }
