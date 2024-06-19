@@ -6,26 +6,54 @@
     <title>People Management</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body class="bg-image" onload="fetchPeopleData()">
+<body onload="fetchPeopleData()">
 
-    <div class="navbar">
-        <div class="brand">KUYUALAN</div>
-        <div class="nav-buttons">
-            <a href="tree.html">Aile Ağacı</a>
+    <header>
+        <img src="./data/banner.jpg" alt="Banner Image" class="banner-image"> 
+    </header>
+
+    <main>
+        <div class="content-container">
+            <div class="section left-section">
+                <h3>Featured Profiles</h3>
+                <ul>
+                    <li><a href="#">Profile 1</a></li>
+                    <li><a href="#">Profile 2</a></li>
+                    <!-- ... more profile links ... -->
+                </ul>
+            </div>
+
+            <div class="section center-section">
+                <!-- Search bar and suggestions -->
+                <div class="search-container">
+                    <input type="text" id="search" placeholder="Aramak istediğiniz kişinin ismini giriniz" oninput="searchPeople(this.value)">
+                    <i class="icon"></i>
+                    <ul id="suggestions"></ul>
+
+                    <!-- Person Details Section (Initially hidden) -->
+                    <div id="personDetails"> 
+                        <span class="close-button" onclick="closePersonDetails()">×</span> <!-- Close button -->
+                        <table id="personInfoTable"></table> 
+                    </div>
+                </div>
+                <div id="aboutUs">
+                    <h3>About Us</h3>
+                    <p>This is some content about your company/website.</p>
+                </div>
+
+                
+            </div>
+
+            <div class="section right-section">
+                <h3>Recent Updates</h3>
+                <ul>
+                    <li>Update 1: [content]</li>
+                    <li>Update 2: [content]</li>
+                    <!-- ... more updates ... -->
+                </ul>
+            </div>
         </div>
-    </div>
-
-    <div class="search-container">
-        <input type="text" id="search" placeholder="Aramak istediğiniz kişinin ismini giriniz" oninput="searchPeople(this.value)">
-        <i class="icon">&#128269;</i> <!-- This is a magnifying glass icon -->
-        <ul id="suggestions"></ul>
-    </div>
-    
-    <!-- Add this div for displaying person information -->
-    <div id="personDetails">
-        <table id="personInfoTable"></table>
-    </div>
-    
+    </main>
 
     <script src="./js/scripts.js"></script>
 </body>
