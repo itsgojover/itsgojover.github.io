@@ -16,17 +16,15 @@ async function fetchPeopleData() {
 function searchPeople(query) {
     const suggestionsContainer = document.getElementById('suggestions');
 
-    if (query.length >= 2) {
+    if (query.length >= 1) {
         const matchingPeople = peopleData.filter(person => {
             const fullName = `${person.name} ${person.surname}`;
-            const startsWithQuery = fullName.toLowerCase().startsWith(query.toLowerCase());
-            return startsWithQuery;
+            return fullName.toLowerCase().startsWith(query.toLowerCase());
         });
-    
+
         suggestionsContainer.innerHTML = '';
-    
+
         if (matchingPeople.length === 0) {
-            // If there are no matches, show the 'Bulunamadi' suggestion
             const noMatchItem = document.createElement('li');
             noMatchItem.textContent = 'Bulunamadı';
             suggestionsContainer.appendChild(noMatchItem);
@@ -34,29 +32,45 @@ function searchPeople(query) {
             matchingPeople.forEach((person, index) => {
                 const suggestionItem = document.createElement('li');
                 suggestionItem.value = `${person.id}`;
-                if(person.birthday)
-                {
-                    suggestionItem.textContent = `${person.name} ${person.surname ? person.surname : "(Soyadı yok)"} - ${person.birthday.substring(0,4)}`;
-                }
-                else
-                {
-                    suggestionItem.textContent = `${person.name} ${person.surname ? person.surname : "(Soyadı yok)"} - Bilinmiyor`;    
-                }
+
+                const nameDiv = document.createElement('div');
+                nameDiv.className = 'name';
+                nameDiv.textContent = `${person.name} ${person.surname ? person.surname : "(Soyadı yok)"}`;
+
+                const birthYearDiv = document.createElement('div');
+                birthYearDiv.className = 'birth-year';
+                birthYearDiv.textContent = person.birthday ? `Doğum Yılı: ${person.birthday.substring(0, 4)}` : 'Doğum Yılı: Bilinmiyor';
+
+                const parentsDiv = document.createElement('div');
+                parentsDiv.className = 'parents';
+                parentsDiv.textContent = `Anne / Baba: ${person.parents ? getParentsNameById(person.id).join(' / ') : 'Bilinmiyor'}`;
+
+                suggestionItem.appendChild(nameDiv);
+                suggestionItem.appendChild(birthYearDiv);
+                suggestionItem.appendChild(parentsDiv);
+
                 suggestionItem.addEventListener('click', () => selectSuggestion(person.id));
                 suggestionItem.addEventListener('mouseenter', () => highlightSuggestion(index));
                 suggestionsContainer.appendChild(suggestionItem);
             });
         }
-    
+
         suggestionsContainer.style.display = "block";
-    }
-    else{
+    } else {
         suggestionsContainer.innerHTML = '';
         suggestionsContainer.style.display = "none"; // Hide the suggestions container
         selectedIndex = -1; // Reset the selected index
         return;
     }
-    
+}
+
+
+function getParentsNameById(id) {
+    const parents = peopleData.find(p => p.id === id).parents;
+
+    return parents
+        ? parents.map(id => Number(id) || id == 0 ? `${getNameById(id)}`: null).filter(n => n)
+        : 'Yok';
 }
 
 function selectSuggestion(id) {
