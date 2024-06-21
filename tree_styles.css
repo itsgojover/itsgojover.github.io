@@ -3,8 +3,6 @@ body {
     background-color: #FFE6A7; /* Third color - Background color */
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -71,6 +69,7 @@ body {
     min-height: 500px;
     padding-top: 10px;
     text-align: center;
+    display: inline-block;
 }
 .genealogy-tree{
   display: inline-block;
@@ -156,6 +155,7 @@ body {
 .member-image{
     width: 60px;
     position: relative;
+    display: contents;
 }
 .member-image img{
     width: 40px;
