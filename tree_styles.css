@@ -3,42 +3,21 @@ body {
     background-color: #FFE6A7; /* Third color - Background color */
     margin: 0;
     padding: 0;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
-.navbar {
-    background-color: #99582A; /* Fourth color - Navbar background color */
+#expandAll {
+    position: fixed; /* Make the button fixed */
+    top: 20px;      /* Adjust top position as needed */
+    right: 20px;     /* Adjust right position as needed */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Example button styling */
     color: white;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.navbar .brand {
-    margin-left: 20px;
-    font-size: 1.5em;
-    color: white;
-    letter-spacing: 3px;
-    font-weight: bold;
-}
-
-.nav-buttons {
-    display: flex;
-}
-
-.nav-buttons a {
-    margin-right: 10px;
-    padding: 8px;
-    background-color: #432818; /* Fifth color - Navbar buttons background color */
-    text-decoration: none;
-    color: white;
+    border: none;
     cursor: pointer;
-}
-
-.nav-buttons a:hover {
-    background-color: #6F1D1B; /* Change hover color to match navbar background color */
-}
+    z-index: 20;
+  }
 
 /*----------------genealogy-scroll----------*/
 
@@ -65,11 +44,12 @@ body {
 .genealogy-body{
     white-space: nowrap;
     overflow-y: hidden;
+    overflow-x: hidden;
     padding: 50px;
-    min-height: 500px;
+    min-height: 100vh;
     padding-top: 10px;
-    text-align: center;
-    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
 }
 .genealogy-tree{
   display: inline-block;
