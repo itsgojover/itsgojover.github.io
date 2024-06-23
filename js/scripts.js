@@ -16,7 +16,7 @@ async function fetchPeopleData() {
 function searchPeople(query) {
     const suggestionsContainer = document.getElementById('suggestions');
 
-    if (query.length >= 1) {
+    if (query.length >= 2) {
         const matchingPeople = peopleData.filter(person => {
             const fullName = `${person.name} ${person.surname}`;
             return fullName.toLowerCase().startsWith(query.toLowerCase());
@@ -125,8 +125,7 @@ document.getElementById('search').addEventListener('keydown', (event) => {
 
     // Scroll to the highlighted suggestion 
     const highlightedSuggestion = suggestions[selectedIndex]; 
-    const scrollTop = suggestionsList.scrollTop; 
-    const scrollHeight = suggestionsList.scrollHeight; 
+    const scrollTop = suggestionsList.scrollTop;
     const clientHeight = suggestionsList.clientHeight; 
 
     // If the highlighted item is out of view, scroll
@@ -209,5 +208,19 @@ function getNameById(id) {
     return person ? `${person.name} ${person.surname ? person.surname : "(Soyadı yok)"}` : 'Unknown';
 }
 
+function setCardAspectRatios() {
+    const cards = document.querySelectorAll('.card');
+    const aspectRatio = 8.4 / 5.2; // Desired aspect ratio
 
+    cards.forEach(card => {
+      const cardWidth = card.offsetWidth; // Get the actual card width
+      card.style.height = `${cardWidth / aspectRatio}px`; // Calculate & set height
+    });
+  }
+
+  // Call the function initially to set the ratios on page load
+  setCardAspectRatios();
+
+  // Call the function on window resize
+  window.addEventListener('resize', setCardAspectRatios);
 
