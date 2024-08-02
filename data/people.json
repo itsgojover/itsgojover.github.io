@@ -33,7 +33,7 @@
   {
     "id": 2,
     "name": "Kasım",
-    "surname": "",
+    "surname": "Güneş",
     "birthday": "1866",
     "parents": [
       0
@@ -51,7 +51,7 @@
   {
     "id": 3,
     "name": "Hüseyin(Molla)",
-    "surname": "",
+    "surname": "Alpaslan",
     "birthday": "1869",
     "parents": [
       0
@@ -2180,8 +2180,8 @@
     "children": [
       150,
       151,
-      152,
-      153
+      153,
+      152
     ]
   },
   {
@@ -2402,7 +2402,9 @@
     "partners": [
       "Hale ceylan"
     ],
-    "children": null
+    "children": [
+      410
+    ]
   },
   {
     "id": 153,
@@ -2417,7 +2419,8 @@
       "Mete Derici"
     ],
     "children": [
-      389
+      389,
+      411
     ]
   },
   {
@@ -4663,25 +4666,12 @@
     ],
     "children": [
       318,
-      319,
       388
     ]
   },
   {
     "id": 318,
     "name": "Feyza",
-    "surname": "Baydar",
-    "birthday": "",
-    "parents": [
-      317,
-      "Celal Baydar"
-    ],
-    "partners": null,
-    "children": null
-  },
-  {
-    "id": 319,
-    "name": "",
     "surname": "Baydar",
     "birthday": "",
     "parents": [
@@ -5813,6 +5803,29 @@
     "partners": [
       "Mahir Çamaçıkan"
     ],
+    "children": null
+  },
+  {
+    "id": 410,
+    "name": "Melek",
+    "surname": "Ceylan",
+    "birthday": "",
+    "parents": [
+      152
+    ],
+    "partners": null,
+    "children": null
+  },
+  {
+    "id": 411,
+    "name": "Elif Yaren",
+    "surname": "Derici",
+    "birthday": "",
+    "parents": [
+      153,
+      "Mete Derici"
+    ],
+    "partners": null,
     "children": null
   }
 ]
