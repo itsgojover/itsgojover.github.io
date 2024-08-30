@@ -24,6 +24,25 @@ function searchPeople(query) {
 
         suggestionsContainer.innerHTML = '';
 
+        const suggestionHeader = document.createElement('li');
+        suggestionHeader.value = '0';
+        const nameHeader = document.createElement('div');
+        nameHeader.className = 'name';
+        nameHeader.textContent = `Adı - Soyadı`;
+
+        const birthYearHeader = document.createElement('div');
+        birthYearHeader.className = 'birth-year';
+        birthYearHeader.textContent = "Doğum Yılı";
+
+        const parentsHeader = document.createElement('div');
+        parentsHeader.className = 'parents';
+        parentsHeader.textContent = `Annesi - Babası`;
+
+        suggestionHeader.appendChild(nameHeader);
+        suggestionHeader.appendChild(birthYearHeader);
+        suggestionHeader.appendChild(parentsHeader);
+        suggestionsContainer.appendChild(suggestionHeader);
+
         if (matchingPeople.length === 0) {
             const noMatchItem = document.createElement('li');
             noMatchItem.textContent = 'Bulunamadı';
@@ -39,18 +58,18 @@ function searchPeople(query) {
 
                 const birthYearDiv = document.createElement('div');
                 birthYearDiv.className = 'birth-year';
-                birthYearDiv.textContent = person.birthday ? `Doğum Yılı: ${person.birthday.substring(0, 4)}` : 'Doğum Yılı: Bilinmiyor';
+                birthYearDiv.textContent = person.birthday ? `${person.birthday.substring(0, 4)}` : 'Bilinmiyor';
 
                 const parentsDiv = document.createElement('div');
                 parentsDiv.className = 'parents';
-                parentsDiv.textContent = `Anne / Baba: ${person.parents ? getParentsNameById(person.id).join(' / ') : 'Bilinmiyor'}`;
+                parentsDiv.textContent = `${person.parents ? getParentsNameById(person.id).join(' / ') : 'Bilinmiyor'}`;
 
                 suggestionItem.appendChild(nameDiv);
                 suggestionItem.appendChild(birthYearDiv);
                 suggestionItem.appendChild(parentsDiv);
 
                 suggestionItem.addEventListener('click', () => selectSuggestion(person.id));
-                suggestionItem.addEventListener('mouseenter', () => highlightSuggestion(index));
+                suggestionItem.addEventListener('mouseenter', () => highlightSuggestion(index + 1));
                 suggestionsContainer.appendChild(suggestionItem);
             });
         }

@@ -156,11 +156,11 @@ main {
 }
 
 #suggestions li .birth-year {
-    flex: 2;
+    flex: 1;
 }
 
 #suggestions li .parents {
-    flex: 5;
+    flex: 3;
 }
 
 #personDetails {
@@ -239,10 +239,6 @@ main {
     color: #6F1D1B;
 }
 
-
-
-
-
 .business-cards {
     display: flex;           /* Enable flexbox layout */
     justify-content: space-between; /* Evenly distribute cards */
@@ -314,58 +310,18 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #FFE6A7; /* Third color - Background color */
-        margin: 0;
-        padding: 0;
-        display: block;
-        align-items: center;
-        min-height: 100vh;
-        overflow-x: hidden;
-    }
-    
-    main {
-        flex-grow: 1;
-    }
-    
-    header {
-        width: 100%; /* Make the banner full-width */
-        box-sizing: border-box;
-    }
-    
-    
+
     .background-container {
-        position: relative;
-        width: 100%;
         height: 40vmin;
-        overflow: hidden; 
     }
-    
-    .blend {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0%;
-        overflow: hidden; 
-        background: linear-gradient(to top, #FFE6A7 10%, transparent 30%); /* Gradient + Image */
-        background-size: cover;
-        background-blend-mode: overlay; /* Blend the gradient with the image */
-        z-index: 10;
-    }
-    
-    .background-container img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0%;
-        object-fit: cover;
-        z-index: 1;
-    }
-    
-    
-    #aboutUs {
-        text-align: center;
+
+    .content-container {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        width: 100%; /* Adjust width as needed */
+        padding: 5px; /* Add padding for spacing */
+        padding-top: 4vmin;
     }
 
     #aboutUs h3{
@@ -380,29 +336,6 @@ main {
         font-size: 3vmin;
     }
     
-    /* ... other styles from your styles.css ... */
-    
-    main {
-        min-height: 100vh; /* Ensure main content fills full viewport height */
-        display: flex; /* For better content wrapping and min-height to work */
-        flex-direction: column; /* Stack content vertically */
-        margin-top: -50px;
-    }
-    
-    .content-container {
-        display: flex;
-        box-sizing: border-box;
-        justify-content: space-between;
-        width: 100%; /* Adjust width as needed */
-        padding: 20px; /* Add padding for spacing */
-    }
-    
-    .section {
-        /* Apply styles to all sections */
-        margin: 10px; /* Add spacing between sections */
-        padding: 20px; /* Add padding for spacing within sections */
-    }
-    
     .center-section {
         min-width: 0;
         width: 95%;
@@ -415,18 +348,11 @@ main {
         display: none;
     }
     
-    
-    /*Search bar*/
-    
-    .search-container {
-        position: relative;
-    }
-    
     .search-container input {
         width: 100%;
         padding: 3px;
         box-sizing: border-box;
-        font-size: large;
+        font-size: medium;
         height: 8vmin;
     }
 
@@ -469,34 +395,42 @@ main {
         list-style-type: none;
         cursor: pointer;
         box-sizing: border-box;
+        align-content: center;
+        padding-left: 3px;
     }
-    
-    #suggestions li:hover,
-    #suggestions li.highlighted {
-        background-color: #99582A; /* First color - Suggestions highlight color */
+
+    #suggestions li:first-child {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        min-height: 1em;
+        border-bottom: 1px solid #ddd;
+        box-sizing: border-box;
+        list-style-type: none;
+        cursor: pointer;
+        box-sizing: border-box;
+        align-content: center;
+        padding-left: 3px;
     }
     
     #suggestions li div {
         padding: 0;
         padding-left: 5px;
         line-height: 200%;
-        text-align: left;
-        font-size: 2.5vmin;
+        text-align: center;
+        font-size: 2.8vmin;
         align-content: center;
     }
-    
-    #suggestions li .name {
-        flex: 2;
+
+    #suggestions li div:first-child {
+        padding: 0;
+        padding-left: 5px;
+        line-height: 200%;
+        text-align: left;
+        font-size: 2.8vmin;
+        align-content: center;
     }
-    
-    #suggestions li .birth-year {
-        flex: 2;
-    }
-    
-    #suggestions li .parents {
-        flex: 5;
-    }
-    
+
     #personDetails {
         box-sizing: border-box;
         width: 100%;
@@ -518,7 +452,7 @@ main {
     #personDetails.show { 
         max-height: 500px;  /* Adjust this value based on the maximum content height */
         opacity: 1;
-        padding: 20px; 
+        padding: 0;
     }
     
     #personDetails > * { /* Target direct children of #personDetails  */
@@ -557,7 +491,7 @@ main {
     
     #personInfoTable td:first-child {
         text-align: left;
-        padding-left: 1em; /* Adjust as needed */
+        padding-left: 10px; /* Adjust as needed */
         width: 100px;
     }
     
@@ -572,62 +506,6 @@ main {
     .personInfo {
         color: #6F1D1B;
     }
-    
-    .business-cards {
-        display: flex;           /* Enable flexbox layout */
-        justify-content: space-between; /* Evenly distribute cards */
-        flex-wrap: wrap;       /* Allow cards to wrap to the next line */
-        justify-content: center; /* Center the cards within the container */
-        box-sizing: border-box;
-        height: 100%;
-        position: relative;
-      }
-      
-      .card {
-        box-sizing: border-box;
-        position: relative;
-        background-color: #f9f9f9;  /* Light background for the card */
-        border: 1px solid #ccc;      /* Subtle border */
-        border-radius: 5px;          /* Rounded corners */
-        padding: 20px;              /* Add some padding */
-        margin-top: 5px;
-        text-align: center;          /* Center content within the card */
-        width: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-      }
-      
-      .card-name {
-        font-weight: bold;        /* Make the name stand out */
-        margin-bottom: 5px;
-      }
-      
-      .card-title {
-        font-size: 0.9em;         /* Slightly smaller font size for title */
-        margin-bottom: 10px;
-      }
-      
-      .card-contact {
-        font-size: 0.8em;         /* Smaller font size for contact info */
-        color: #555;             /* Lighter color for contact info */
-      }
-    
-      .card-image {
-        width: 30%;
-        height: 25%; /* Adjust image height as needed */
-        overflow: hidden; /* Ensure image stays within the container */
-        margin-bottom: 15px; 
-      }
-      
-      .card-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* Make the image cover the entire area */
-      }
-      
-      /* Center the content within the card */
-      .card h4, .card p {
-        text-align: center;
-      }
     
     .contact {
         box-sizing: border-box;
